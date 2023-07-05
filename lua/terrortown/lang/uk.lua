@@ -100,7 +100,7 @@ L.equip_spec_name = "Ім'я"
 L.equip_spec_type = "Тип"
 L.equip_spec_desc = "Опис"
 
-L.equip_confirm = "Купити обладнання"
+L.equip_confirm = "Купити"
 
 -- Disguiser tab in equipment menu
 L.disg_name = "Маскувальник"
