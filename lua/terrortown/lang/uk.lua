@@ -295,863 +295,830 @@ L.c4_status_armed = "Активовано"
 L.c4_status_disarmed = "Деактивовано"
 
 -- Visualizer
-L.vis_name = "Visualizer"
-L.vis_hint = "Press {usekey} to pick up (Detectives only)."
+
+L.vis_name = "Візуалізатор"
+L.vis_hint = "Натисніть {usekey}, щоб підняти (тільки для Детективів)."
 
 L.vis_desc = [[
-Crime scene visualization device.
+Пристрій для візуалізації місця злочину.
 
-Analyzes a corpse to show how the victim was killed, but only if they died of gunshot wounds.]]
+Аналізує труп, щоб показати, як жертва була вбита, але лише якщо вона померла від пострілів.]]
 
 -- Decoy
-L.decoy_name = "Decoy"
-L.decoy_no_room = "You cannot carry this decoy."
-L.decoy_broken = "Your Decoy has been destroyed!"
+L.decoy_name = "Манекен"
+L.decoy_no_room = "Ви не можете носити цей манекен."
+L.decoy_broken = "Ваш манекен був знищений!"
 
-L.decoy_short_desc = "This decoy shows a fake radar sign visible for other teams"
-L.decoy_pickup_wrong_team = "You can't pick it up as it belongs to a different team"
+L.decoy_short_desc = "Цей манекен показує фальшивий радарний знак, видимий для інших команд"
+L.decoy_pickup_wrong_team = "Ви не можете забрати його, оскільки він належить іншій команді"
 
 L.decoy_desc = [[
-Shows a fake radar sign to other teams, and makes the DNA scanner show the location of the Decoy if someone scans for your DNA.]]
+Показує фальшивий радарний знак іншим командам та робить локацію манекена видимою, якщо хтось сканує вашу ДНК.]]
 
--- Defuser
-L.defuser_name = "Defuser"
-L.defuser_help = "{primaryfire} defuses targeted C4."
+L.defuser_name = "Розмінювач"
+L.defuser_help = "{primaryfire} розмінює вибухівку C4."
 
 L.defuser_desc = [[
-Instantly defuse a C4 explosive.
+Миттєво розмінює вибуховий пристрій C4.
 
-Unlimited uses. C4 will be easier to notice if you carry this.]]
+Необмежена кількість використань. C4 буде легше помітити, якщо ви носите це.]]
 
--- Flare gun
-L.flare_name = "Flare gun"
+L.flare_name = "Пістолет-світлошумовик"
 
 L.flare_desc = [[
-Can be used to burn corpses so that they are never found. Limited ammo.
+Можна використовувати для паління трупів, щоб їх ніколи не знайшли. Обмежена кількість патронів.
 
-Burning a corpse makes a distinct sound.]]
+Паління трупа робить характерний звук.]]
 
--- Health station
-L.hstation_name = "Health Station"
+L.hstation_name = "Станція здоров'я"
 
-L.hstation_broken = "Your Health Station has been destroyed!"
-L.hstation_help = "{primaryfire} places the Health Station."
+L.hstation_broken = "Ваша станція здоров'я була знищена!"
+L.hstation_help = "{primaryfire} розміщує станцію здоров'я."
 
 L.hstation_desc = [[
-Allows people to heal when placed.
+Дозволяє людям відновлювати здоров'я після розміщення.
 
-Slow recharge. Anyone can use it, and it can be damaged. Can be checked for DNA samples of its users.]]
+Повільне заряджання. Його може використовувати будь-хто, і його можна пошкодити. Може бути перевірений на наявність ДНК-зразків користувачів.]]
 
 -- Knife
-L.knife_name = "Knife"
-L.knife_thrown = "Thrown knife"
+L.knife_name = "Ніж"
+L.knife_thrown = "Кинутий ніж"
 
 L.knife_desc = [[
-Kills wounded targets instantly and silently, but only has a single use.
+Миттєво й безшумно вбиває поранених цілей, але має лише одне використання.
 
-Can be thrown using alternate fire.]]
+Можна кинути, використовуючи альтернативний вогонь.]]
 
--- Poltergeist
 L.polter_desc = [[
-Plants thumpers on objects to shove them around violently.
+Розміщує резонатори на об'єктах, щоб сильно трусити їх.
 
-The energy bursts damage people in close proximity.]]
+Енергетичні вибухи завдають шкоди людям у непосредній близькості.]]
 
--- Radio
-L.radio_broken = "Your Radio has been destroyed!"
-L.radio_help_pri = "{primaryfire} places the Radio."
+L.radio_broken = "Ваш радіоприймач був знищений!"
+L.radio_help_pri = "{primaryfire} розміщує радіоприймач."
 
 L.radio_desc = [[
-Plays sounds to distract or deceive.
+Відтворює звуки для відволікання або обману.
 
-Place the radio somewhere, and then play sounds on it using the Radio tab in this menu.]]
+Розмістіть радіоприймач десь, а потім відтворюйте звуки на ньому, використовуючи вкладку "Радіо" в цьому меню.]]
 
--- Silenced pistol
-L.sipistol_name = "Silenced Pistol"
+L.sipistol_name = "Пістолет з приглушеним звуком"
 
 L.sipistol_desc = [[
-Low-noise handgun, uses normal pistol ammo.
+Пістолет зі зниженим рівнем шуму, використовує звичайні патрони для пістолета.
 
-Victims will not scream when killed.]]
+Жертви не кричать при вбивстві.]]
 
--- Newton launcher
-L.newton_name = "Newton launcher"
+L.newton_name = "Стріла Ньютона"
 
 L.newton_desc = [[
-Push people from a safe distance.
+Відштовхуйте людей з безпечної відстані.
 
-Infinite ammo, but slow to fire.]]
+Необмежена кількість патронів, але повільна стрільба.]]
 
 -- Binoculars
-L.binoc_name = "Binoculars"
+L.binoc_name = "Бінокль"
 
 L.binoc_desc = [[
-Zoom in on corpses and identify them from a long distance away.
+Збільшуйте трупи і визначайте їх здалеку.
 
-Unlimited uses, but identification takes a few seconds.]]
+Необмежена кількість використань, але ідентифікація займає кілька секунд.]]
 
--- UMP
 L.ump_desc = [[
-Experimental SMG that disorients targets.
+Експериментальний пістолет-кулемет, що дезорієнтує цілі.
 
-Uses standard SMG ammo.]]
+Використовує стандартні патрони для пістолет-кулемета.]]
 
--- DNA scanner
-L.dna_name = "DNA scanner"
-L.dna_notfound = "No DNA sample found on target."
-L.dna_limit = "Storage limit reached. Remove old samples to add new ones."
-L.dna_decayed = "DNA sample of the killer has decayed."
-L.dna_killer = "Collected a sample of the killer's DNA from the corpse!"
-L.dna_duplicate = "Match! You already have this DNA sample in your scanner."
-L.dna_no_killer = "The DNA could not be retrieved (killer disconnected?)."
-L.dna_armed = "This bomb is live! Disarm it first!"
-L.dna_object = "Collected a sample of the last owner from the object."
-L.dna_gone = "DNA not detected in area."
+L.dna_name = "Сканер ДНК"
+L.dna_notfound = "Не знайдено зразка ДНК на цілі."
+L.dna_limit = "Досягнуто обмеження зберігання. Видаліть старі зразки, щоб додати нові."
+L.dna_decayed = "Зразок ДНК вбивці розпався."
+L.dna_killer = "Зібрано зразок ДНК вбивці з трупа!"
+L.dna_duplicate = "Збіг! У вас вже є цей зразок ДНК у сканері."
+L.dna_no_killer = "Не вдалося отримати ДНК (вбивця відключився?)."
+L.dna_armed = "Ця бомба активна! Спочатку роззбройте її!"
+L.dna_object = "Зібрано зразок останнього власника з об'єкта."
+L.dna_gone = "ДНК не виявлено в цій області."
 
 L.dna_desc = [[
-Collect DNA samples from things and use them to find the DNA's owner.
+Збирайте зразки ДНК з різних предметів і використовуйте їх, щоб визначити власника ДНК.
 
-Use on fresh corpses to get the killer's DNA and track them down.]]
+Використовуйте на свіжих трупах, щоб отримати ДНК вбивці і відстежити їх.]]
 
 -- Magneto stick
-L.magnet_name = "Magneto-stick"
-L.magnet_help = "{primaryfire} to attach body to surface."
+L.magnet_name = "Магніт"
+L.magnet_help = "{primaryfire} щоб прикріпити тіло до поверхні."
 
--- Grenades and misc
-L.grenade_smoke = "Smoke grenade"
-L.grenade_fire = "Incendiary grenade"
+L.grenade_smoke = "Димова граната"
+L.grenade_fire = "Запальна граната"
 
-L.unarmed_name = "Holstered"
-L.crowbar_name = "Crowbar"
-L.pistol_name = "Pistol"
-L.rifle_name = "Rifle"
-L.shotgun_name = "Shotgun"
+L.unarmed_name = "Зброя за спиною"
+L.crowbar_name = "Лом"
+L.pistol_name = "Пістолет"
+L.rifle_name = "Гвинтівка"
+L.shotgun_name = "Дробовик"
 
--- Teleporter
-L.tele_name = "Teleporter"
-L.tele_failed = "Teleport failed."
-L.tele_marked = "Teleport location marked."
+L.tele_name = "Телепорт"
+L.tele_failed = "Телепорт не вдалося."
+L.tele_marked = "Місце телепортації відмічено."
 
-L.tele_no_ground = "Cannot teleport unless standing on solid ground!"
-L.tele_no_crouch = "Cannot teleport while crouched!"
-L.tele_no_mark = "No location marked. Mark a destination before teleporting."
+L.tele_no_ground = "Телепорт можливий тільки з прочною підставою!"
+L.tele_no_crouch = "Телепорт неможливий у пригніченому стані!"
+L.tele_no_mark = "Місце телепортації не відмічено. Відмітьте місце призначення перед телепортацією."
 
-L.tele_no_mark_ground = "Cannot mark a teleport location unless standing on solid ground!"
-L.tele_no_mark_crouch = "Cannot mark a teleport location while crouched!"
+L.tele_no_mark_ground = "Відмітити місце телепортації можна тільки з прочною підставою!"
+L.tele_no_mark_crouch = "Відмітити місце телепортації неможливо у пригніченому стані!"
 
-L.tele_help_pri = "Teleports to marked location"
-L.tele_help_sec = "Marks current location"
+L.tele_help_pri = "Телепортується на відмічене місце"
+L.tele_help_sec = "Відмічає поточне місце"
 
 L.tele_desc = [[
-Teleport to a previously marked spot.
+Телепортується на раніше відмічене місце.
 
-Teleporting makes noise, and the number of uses is limited.]]
+Телепортування супроводжується шумом, і кількість використань обмежена.]]
 
--- Ammo names, shown when picked up
-L.ammo_pistol = "9mm ammo"
+L.ammo_pistol = "Патрони 9 мм"
 
-L.ammo_smg1 = "SMG ammo"
-L.ammo_buckshot = "Shotgun ammo"
-L.ammo_357 = "Rifle ammo"
-L.ammo_alyxgun = "Deagle ammo"
-L.ammo_ar2altfire = "Flare ammo"
-L.ammo_gravity = "Poltergeist ammo"
+L.ammo_smg1 = "Патрони для пістолет-кулемета"
+L.ammo_buckshot = "Патрони для дробовика"
+L.ammo_357 = "Патрони для гвинтівки"
+L.ammo_alyxgun = "Патрони для дезерта"
+L.ammo_ar2altfire = "Патрони для факела"
+L.ammo_gravity = "Патрони для полтергейста"
 
 -- Round status
-L.round_wait = "Waiting"
-L.round_prep = "Preparing"
-L.round_active = "In progress"
-L.round_post = "Round over"
+L.round_wait = "Очікування"
+L.round_prep = "Підготовка"
+L.round_active = "В процесі"
+L.round_post = "Раунд завершено"
 
--- Health, ammo and time area
-L.overtime = "OVERTIME"
-L.hastemode = "HASTE MODE"
+L.overtime = "Додатковий час"
+L.hastemode = "Режим поспіху"
 
--- TargetID health status
-L.hp_healthy = "Healthy"
-L.hp_hurt = "Hurt"
-L.hp_wounded = "Wounded"
-L.hp_badwnd = "Badly Wounded"
-L.hp_death = "Near Death"
+L.hp_healthy = "Здоровий"
+L.hp_hurt = "Травмований"
+L.hp_wounded = "Зранений"
+L.hp_badwnd = "Серйозно поранений"
+L.hp_death = "На межі смерті"
 
--- TargetID Karma status
-L.karma_max = "Reputable"
-L.karma_high = "Crude"
-L.karma_med = "Trigger-happy"
-L.karma_low = "Dangerous"
-L.karma_min = "Liability"
+L.karma_max = "Поважаний"
+L.karma_high = "Неприємний"
+L.karma_med = "Занадто стріляючий"
+L.karma_low = "Небезпечний"
+L.karma_min = "Небезпека"
 
--- TargetID misc
-L.corpse = "Corpse"
-L.corpse_hint = "Press [{usekey}] to search. [{walkkey} + {usekey}] to search covertly."
+L.corpse = "Труп"
+L.corpse_hint = "Натисніть [{usekey}], щоб обшукати. [{walkkey} + {usekey}], щоб обшукати непомітно."
 
-L.target_disg = "(disguised)"
-L.target_unid = "Unidentified body"
-L.target_unknown = "A Terrorist"
+L.target_disg = "(прихований)"
+L.target_unid = "Невідоме тіло"
+L.target_unknown = "Терорист"
 
-L.target_credits = "Search to receive unspent credits"
+L.target_credits = "Обшукайте, щоб отримати невитрачені кредити"
 
--- HUD buttons with hand icons that only some roles can see and use
-L.tbut_single = "Single use"
-L.tbut_reuse = "Reusable"
-L.tbut_retime = "Reusable after {num} sec"
-L.tbut_help = "Press [{usekey}] to activate"
+L.tbut_single = "Одноразовий"
+L.tbut_reuse = "Многоразовий"
+L.tbut_retime = "Многоразовий через {num} сек"
+L.tbut_help = "Натисніть [{usekey}], щоб активувати"
 
 -- Spectator muting of living/dead
-L.mute_living = "Living players muted"
-L.mute_specs = "Spectators muted"
-L.mute_all = "All muted"
-L.mute_off = "None muted"
+L.mute_living = "Заглушено живих гравців"
+L.mute_specs = "Заглушено спостерігачів"
+L.mute_all = "Заглушено всіх"
+L.mute_off = "Ніхто не заглушений"
 
--- Spectators and prop possession
 L.punch_title = "PUNCH-O-METER"
-L.punch_help = "Move keys or jump: punch object. Crouch: leave object."
-L.punch_bonus = "Your bad score lowered your punch-o-meter limit by {num}"
-L.punch_malus = "Your good score increased your punch-o-meter limit by {num}!"
+L.punch_help = "Рухатися або стрибати: бити об'єкт. Присісти: відпустити об'єкт."
+L.punch_bonus = "Ваш низький рахунок знизив межу вашого punch-o-meter на {num}"
+L.punch_malus = "Ваш високий рахунок збільшив межу вашого punch-o-meter на {num}!"
 
--- Info popups shown when the round starts
 L.info_popup_innocent = [[
-You are an innocent Terrorist! But there are traitors around...
-Who can you trust, and who is out to fill you with bullets?
+Ви - невинний терорист! Але поруч є зрадники...
+Кому ви можете довіряти, а хто має намір наповнити вас кулями?
 
-Watch your back and work with your comrades to get out of this alive!]]
+Сторожіться і співпрацюйте з товаришами, щоб вижити!]]
 
 L.info_popup_detective = [[
-You are a Detective! Terrorist HQ has given you special resources to find the traitors.
-Use them to help the innocent survive, but be careful:
-the traitors will be looking to take you down first!
+Ви - Детектив! Командування терористів надало вам спеціальні ресурси для виявлення зрадників.
+Використовуйте їх, щоб допомогти невинним вижити, але будьте обережні:
+зрадники будуть намагатися знищити вас першими!
 
-Press {menukey} to receive your equipment!]]
+Натисніть {menukey}, щоб отримати ваше спеціальне спорядження!]]
 
 L.info_popup_traitor_alone = [[
-You are a TRAITOR! You have no fellow traitors this round.
+Ви - ЗРАДНИК! В цьому раунді у вас немає спільників.
 
-Kill all others to win!
+Вбийте всіх інших, щоб перемогти!
 
-Press {menukey} to receive your special equipment!]]
+Натисніть {menukey}, щоб отримати ваше спеціальне спорядження!]]
 
 L.info_popup_traitor = [[
-You are a TRAITOR! Work with fellow traitors to kill all others.
-But take care, or your treason may be discovered...
+Ви - ЗРАДНИК! Співпрацюйте з іншими зрадниками, щоб вбити всіх інших.
+Але будьте обережні, бо вашу зраду можуть виявити...
 
-These are your comrades:
+Ось ваші товариші:
 {traitorlist}
 
-Press {menukey} to receive your special equipment!]]
+Натисніть {menukey}, щоб отримати ваше спеціальне спорядження!]]
 
 -- Various other text
-L.name_kick = "A player was automatically kicked for changing their name during a round."
+L.name_kick = "Гравця автоматично вигнали за зміну імені під час раунду."
 
 L.idle_popup = [[
-You were idle for {num} seconds and were moved into Spectator-only mode as a result. While you are in this mode, you will not spawn when a new round starts.
+Ви були бездіяльні протягом {num} секунд і перейшли в режим лише спостереження. Поки ви в цьому режимі, ви не появлятиметеся, коли почнеться новий раунд.
 
-You can toggle Spectator-only mode at any time by pressing {helpkey} and unchecking the box in the Settings tab. You can also choose to disable it right now.]]
+Ви можете в будь-який момент перемикати режим лише спостереження, натиснувши {helpkey} і знявши прапорець на вкладці Налаштування. Ви також можете відключити його прямо зараз.]]
 
-L.idle_popup_close = "Do nothing"
-L.idle_popup_off = "Disable Spectator-only mode now"
+L.idle_popup_close = "Нічого не робити"
+L.idle_popup_off = "Відключити режим лише спостереження зараз"
 
-L.idle_warning = "Warning: you appear to be idle/AFK, and will be made to spectate unless you show activity!"
+L.idle_warning = "Попередження: ви здаєтесь бездіяльним/AFK і будете переміщені в режим спостереження, якщо не покажете активність!"
 
-L.spec_mode_warning = "You are in Spectator Mode and will not spawn when a round starts. To disable this mode, press F1, go to 'Gameplay' and uncheck 'Spectate-only mode'."
+L.spec_mode_warning = "Ви знаходитесь в режимі Спостереження і не появитеся, коли почнеться раунд. Щоб вимкнути цей режим, натисніть F1, перейдіть до 'Геймплею' і зняйте прапорець з 'Режим лише спостереження'."
 
--- Tips panel
-L.tips_panel_title = "Tips"
-L.tips_panel_tip = "Tip:"
+L.tips_panel_title = "Поради"
+L.tips_panel_tip = "Порада:"
 
 -- Tip texts
-L.tip1 = "Traitors can search a corpse silently, without confirming the death, by holding {walkkey} and pressing {usekey} on the corpse."
+L.tip1 = "Предателі можуть шукати труп тихенько, не підтверджуючи смерть, тримаючи {walkkey} і натискаючи {usekey} на трупі."
 
-L.tip2 = "Arming a C4 explosive with a longer timer will increase the number of wires that cause it to explode instantly when an innocent attempts to disarm it. It will also beep softer and less often."
+L.tip2 = "Якщо ви налаштуєте C4 з довшим таймером, збільшиться кількість дротиків, що спричиняють миттєвий вибух, коли невинний спробує розмінувати його. Вибух буде гучніше і рідше пищати."
 
-L.tip3 = "Detectives can search a corpse to find who is 'reflected in its eyes'. This is the last person the dead guy saw. That does not have to be the killer if they were shot in the back."
+L.tip3 = "Детективи можуть перевірити труп, щоб з'ясувати, хто відображається в його очах. Це остання людина, яку померлий побачив. Це не обов'язково буде вбивця, якщо його встрілили ззаду."
 
-L.tip4 = "No one will know you have died until they find your dead body and identify you by searching it."
+L.tip4 = "Ніхто не дізнається, що ви померли, поки не знайдуть ваше труп і не ідентифікують вас, перевіривши його."
 
-L.tip5 = "When a Traitor kills a Detective, they instantly receive a credit reward."
+L.tip5 = "Коли Предатель вбиває Детектива, він одразу отримує кредитну винагороду."
 
-L.tip6 = "When a Traitor dies, all Detectives are rewarded equipment credits."
+L.tip6 = "Коли Предатель помирає, всі Детективи отримують кредити на обладнання."
 
-L.tip7 = "When the Traitors have made significant progress in killing innocents, they will receive an equipment credit as reward."
+L.tip7 = "Коли Предателі зробили значний прогрес у вбивстві невинних, вони отримають кредит обладнання як винагороду."
 
-L.tip8 = "Traitors and Detectives can collect unspent equipment credits from the dead bodies of other Traitors and Detectives."
+L.tip8 = "Предателі та Детективи можуть збирати невикористані кредити обладнання з трупів інших Предателів та Детективів."
 
-L.tip9 = "The Poltergeist can turn any physics object into a deadly projectile. Each punch is accompanied by a blast of energy hurting anyone nearby."
+L.tip9 = "Полтергейст може перетворити будь-який фізичний об'єкт в смертоносний снаряд. Кожен удар супроводжується вибухом енергії, який поранює когось поруч."
 
-L.tip10 = "As Traitor or Detective, keep an eye on red messages in the top right. These will be important for you."
+L.tip10 = "Як Предатель або Детектив, стежте за червоними повідомленнями у верхньому правому куті. Вони будуть важливі для вас."
 
-L.tip11 = "As Traitor or Detective, keep in mind you are rewarded extra equipment credits if you and your comrades perform well. Make sure you remember to spend them!"
+L.tip11 = "Як Предатель або Детектив, пам'ятайте, що ви отримуєте додаткові кредити обладнання, якщо ви і ваші товариші виконуєте свої обов'язки добре. Пам'ятайте витратити їх!"
 
-L.tip12 = "The Detectives' DNA Scanner can be used to gather DNA samples from weapons and items and then scan to find the location of the player who used them. Useful when you can get a sample from a corpse or a disarmed C4!"
+L.tip12 = "Детективський Сканер ДНК можна використовувати для збору зразків ДНК зі зброї та предметів, а потім сканувати, щоб знайти місцезнаходження гравця, який їх використовував. Корисно, коли ви можете отримати зразок з трупа або розмінованої C4!"
 
-L.tip13 = "When you are close to someone you kill, some of your DNA is left on the corpse. This DNA can be used with a Detective's DNA Scanner to find your current location. Better hide the body after you knife someone!"
+L.tip13 = "Коли ви зблизька вбиваєте когось, на трупі залишається ваша ДНК. Це можна використовувати з Детективським Сканером ДНК, щоб знайти ваше поточне місцезнаходження. Краще ховайте труп після того, як ви вбиваєте ножем когось!"
 
-L.tip14 = "The further you are away from someone you kill, the faster your DNA sample on their body will decay."
+L.tip14 = "Чим далі ви знаходитесь від людини, яку ви вбиваєте, тим швидше ваш зразок ДНК на їх тілі розкладатиметься."
 
-L.tip15 = "Are you Traitor and going sniping? Consider trying out the Disguiser. If you miss a shot, run away to a safe spot, disable the Disguiser, and no one will know it was you who was shooting at them."
+L.tip15 = "Якщо ви є Предателем і плануєте снайперську роботу, подумайте про використання Маскувальника. Якщо ви промахнулися, втечте до безпечного місця, вимкніть Маскувальник, і ніхто не дізнається, що це були ви, хто на них вистрілював."
 
-L.tip16 = "As Traitor, the Teleporter can help you escape when chased, and allows you to quickly travel across a big map. Make sure you always have a safe position marked."
+L.tip16 = "Як Предатель, Телепорт може допомогти вам уникнути переслідування та дозволяє швидко переміщатися по великій карті. Впевніться, що у вас завжди є позначена безпечна позиція."
 
-L.tip17 = "Are the innocents all grouped up and hard to pick off? Consider trying out the Radio to play sounds of C4 or a firefight to lead some of them away."
+L.tip17 = "Якщо невинні всі групуються разом і їх важко вбити поодинці, спробуйте використати Радіо, щоб відтворити звуки C4 або перестрілки, щоб залучити деяких з них."
 
-L.tip18 = "Using the Radio as Traitor, you can play sounds through your Equipment Menu after the radio has been placed. Queue up multiple sounds by clicking multiple buttons in the order you want them."
+L.tip18 = "Як Предатель, використовуючи Радіо, ви можете відтворювати звуки через своє Меню Обладнання після того, як радіо буде встановлено. Створюйте чергу з кількох звуків, натискаючи кілька кнопок у потрібному порядку."
 
-L.tip19 = "As Detective, if you have leftover credits you could give a trusted Innocent a Defuser. Then you can spend your time doing the serious investigative work and leave the risky bomb defusal to them."
+L.tip19 = "Якщо ви є Детективом і у вас є невикористані кредити, ви можете передати надійному Невинному Розмінувач. Тоді ви можете зосередитися на серйозній розслідувальній роботі і залишити ризиковане розмінування бомби на їхніх плечі."
 
-L.tip20 = "The Detectives' Binoculars allow long-range searching and identifying of corpses. Bad news if the Traitors were hoping to use a corpse as bait. Of course, while using the Binoculars a Detective is unarmed and distracted..."
+L.tip20 = "Бінокль Детективів дозволяє проводити пошук та ідентифікацію трупів на великій відстані. Це погані новини для Предателів, які сподівалися використати труп як приманку. Звичайно, під час використання Бінокля Детектив знаходиться беззахисним та розсіяним..."
 
-L.tip21 = "The Detectives' Health Station lets wounded players recover. Of course, those wounded people could be Traitors..."
+L.tip21 = "Станція Здоров'я Детективів дозволяє пораненим гравцям одужувати. Звичайно, ці поранені люди можуть бути Предателями..."
 
-L.tip22 = "The Health Station records a DNA sample of everyone who uses it. Detectives can use this with the DNA Scanner to find out who has been healing up."
+L.tip22 = "Станція Здоров'я фіксує зразок ДНК всіх, хто її використовує. Детективи можуть використовувати це разом зі Сканером ДНК, щоб дізнатися, хто одужував."
 
-L.tip23 = "Unlike weapons and C4, the Radio equipment for Traitors does not contain a DNA sample of the person who planted it. Don't worry about Detectives finding it and blowing your cover."
+L.tip23 = "На відміну від зброї та C4, радіообладнання для Предателів не містить зразка ДНК людини, яка його розмістила. Не хвилюйтеся, що Детективи знайдуть його і розкриють ваше приховування."
 
-L.tip24 = "Press {helpkey} to view a short tutorial or modify some TTT-specific settings. For example, you can permanently disable these tips there."
+L.tip24 = "Натисніть {helpkey}, щоб переглянути короткий навчальний посібник або змінити деякі специфічні налаштування TTT. Наприклад, ви можете вимкнути ці поради назавжди там."
 
-L.tip25 = "When a Detective searches a body, the result is available to all players via the scoreboard by clicking on the name of the dead person."
+L.tip25 = "Коли Детектив обшукує труп, результат стає доступним для всіх гравців через таблицю результатів, натиснувши на ім'я мертвої особи."
 
-L.tip26 = "In the scoreboard, a magnifying glass icon next to someone's name indicates you have search information about that person. If the icon is bright, the data comes from a Detective and may contain additional information."
+L.tip26 = "У таблиці результатів значок лупи поряд з ім'ям когось означає, що у вас є інформація про цю особу з обшуку. Якщо значок яскравий, дані надані Детективом і можуть містити додаткову інформацію."
 
-L.tip27 = "As Detective, corpses with a magnifying glass after the nickname have been searched by a Detective and their results are available to all players via the scoreboard."
+L.tip27 = "Як Детектив, трупи зі значком лупи після псевдоніма були обшукані Детективом, і їхні результати доступні для всіх гравців через таблицю результатів."
 
-L.tip28 = "Spectators can press {mutekey} to cycle through muting other spectators or living players."
+L.tip28 = "Спостерігачі можуть натискати {mutekey}, щоб переключатися між заглушенням інших спостерігачів або живих гравців."
 
-L.tip29 = "If the server has installed additional languages, you can switch to a different language at any time in the Settings menu."
+L.tip29 = "Якщо на сервері встановлені додаткові мови, ви можете в будь-який момент переключитися на іншу мову в меню Налаштувань."
 
-L.tip30 = "Quickchat or 'radio' commands can be used by pressing {zoomkey}."
+L.tip30 = "Швидкі команди або 'радіо' можна використовувати, натиснувши {zoomkey}."
 
-L.tip31 = "As Spectator, press {duckkey} to unlock your mouse cursor and click the buttons on this tips panel. Press {duckkey} again to go back to mouseview."
+L.tip31 = "Як спостерігач, натисніть {duckkey}, щоб розблокувати курсор миші та клацнути по кнопкам на цій панелі з порадами. Натисніть {duckkey} знову, щоб повернутися до курсорного перегляду."
 
-L.tip32 = "The Crowbar's secondary fire will push other players."
+L.tip32 = "Вторинна атака Зубилом відштовхує інших гравців."
 
-L.tip33 = "Firing through the ironsights of a weapon will slightly increase your accuracy and decrease recoil. Crouching does not."
+L.tip33 = "Стріляючи через мушки зброї, ваша точність трохи збільшується, а отдача зменшується. Краучування цьому не сприяє."
 
-L.tip34 = "Smoke grenades are effective indoors, especially for creating confusion in crowded rooms."
+L.tip34 = "Димові гранати ефективні усередині приміщень, особливо для створення плутанини в переповнених кімнатах."
 
-L.tip35 = "As Traitor, remember you can carry dead bodies and hide them from the prying eyes of the innocent and their Detectives."
+L.tip35 = "Як Предатель, пам'ятайте, що ви можете переносити трупи та приховувати їх від пильного погляду невинних та їх Детективів."
 
-L.tip36 = "The tutorial available under {helpkey} contains an overview of the most important keys of the game."
+L.tip36 = "Урок, доступний під {helpkey}, містить огляд найважливіших клавіш гри."
 
-L.tip37 = "On the scoreboard, click the name of a living player and you can select a tag for them such as 'suspect' or 'friend'. This tag will show up if you have them under your crosshair."
+L.tip37 = "На таблиці результатів натисніть на ім'я живого гравця, і ви зможете вибрати для нього позначку, таку як 'підозрілий' або 'друг'. Ця позначка з'явиться, якщо ви матимете його під прицілом."
 
-L.tip38 = "Many of the placeable equipment items (such as C4, Radio) can be stuck on walls using secondary fire."
+L.tip38 = "Багато з розміщуваних предметів обладнання (таких як C4, Радіо) можна прикріпити до стін, використовуючи другу кнопку вогню."
 
-L.tip39 = "C4 that explodes due to a mistake in disarming it has a smaller explosion than C4 that reaches zero on its timer."
+L.tip39 = "C4, яке вибухає через помилку при розмінуванні, має менший вибух, ніж C4, яке досягло нуля на таймері."
 
-L.tip40 = "If it says 'HASTE MODE' above the round timer, the round will at first be only a few minutes long, but with every death the available time increases (like capturing a point in TF2). This mode puts the pressure on the traitors to keep things moving."
+L.tip40 = "Якщо над таймером раунду написано 'HASTE MODE', спочатку раунд буде декілька хвилин, але з кожною смертю доступний час збільшується (подібно до захоплення точки в TF2). Цей режим ставить під напругу Предателів і стимулює активну гру."
 
--- Round report
-L.report_title = "Round Report"
+L.report_title = "Звіт про Раунд"
 
--- Tabs
-L.report_tab_hilite = "Highlights"
-L.report_tab_hilite_tip = "Round highlights"
-L.report_tab_events = "Events"
-L.report_tab_events_tip = "Log of the events that happened this round"
-L.report_tab_scores = "Scores"
-L.report_tab_scores_tip = "Points scored by each player in this round alone"
+L.report_tab_hilite = "Виділення"
+L.report_tab_hilite_tip = "Найцікавіші моменти раунду"
+L.report_tab_events = "Події"
+L.report_tab_events_tip = "Журнал подій, що сталися у цьому раунді"
+L.report_tab_scores = "Очки"
+L.report_tab_scores_tip = "Очки, набрані кожним гравцем у цьому раунді"
 
--- Event log saving
-L.report_save = "Save Log .txt"
-L.report_save_tip = "Saves the Event Log to a text file"
-L.report_save_error = "No Event Log data to save."
-L.report_save_result = "The Event Log has been saved to:"
+L.report_save = "Зберегти Лог .txt"
+L.report_save_tip = "Зберегти Журнал Подій у текстовому файлі"
+L.report_save_error = "Немає даних Журналу Подій для збереження."
+L.report_save_result = "Журнал Подій був збережений у файл:"
 
--- Columns
-L.col_time = "Time"
-L.col_event = "Event"
-L.col_player = "Player"
-L.col_roles = "Role(s)"
-L.col_teams = "Team(s)"
-L.col_kills1 = "Kills"
-L.col_kills2 = "Team kills"
-L.col_points = "Points"
-L.col_team = "Team bonus"
-L.col_total = "Total points"
+L.col_time = "Час"
+L.col_event = "Подія"
+L.col_player = "Гравець"
+L.col_roles = "Роль(і)"
+L.col_teams = "Команда(и)"
+L.col_kills1 = "Вбивства"
+L.col_kills2 = "Вбивства команди"
+L.col_points = "Очки"
+L.col_team = "Бонус команди"
+L.col_total = "Загальні очки"
 
 -- Awards/highlights
-L.aw_sui1_title = "Suicide Cult Leader"
-L.aw_sui1_text = "showed the other suiciders how to do it by being the first to go."
+L.aw_sui1_title = "Лідер Секти Самогубців"
+L.aw_sui1_text = "показав іншим самогубцям, як це зробити, бувши першим, хто пішов."
 
-L.aw_sui2_title = "Lonely and Depressed"
-L.aw_sui2_text = "was the only one who killed themselves."
+L.aw_sui2_title = "Самотній і Засмучений"
+L.aw_sui2_text = "був єдиним, хто вбив себе."
 
-L.aw_exp1_title = "Explosives Research Grant"
-L.aw_exp1_text = "was recognized for their research on explosions. {num} test subjects helped out."
+L.aw_exp1_title = "Грант на Дослідження Вибухів"
+L.aw_exp1_text = "був визнаний за свої дослідження в галузі вибухів. {num} добровольців допомогли в цьому."
 
-L.aw_exp2_title = "Field Research"
-L.aw_exp2_text = "tested their own resistance to explosions. It was not high enough."
+L.aw_exp2_title = "Польові Дослідження"
+L.aw_exp2_text = "протестував свою власну стійкість до вибухів. Вона була недостатньою."
 
-L.aw_fst1_title = "First Blood"
-L.aw_fst1_text = "delivered the first innocent death at a traitor's hands."
+L.aw_fst1_title = "Перше Кровопролиття"
+L.aw_fst1_text = "спричинив першу невинну смерть з рук зрадника."
 
-L.aw_fst2_title = "First Bloody Stupid Kill"
-L.aw_fst2_text = "scored the first kill by shooting a fellow traitor. Good job."
+L.aw_fst2_title = "Перше Кроваве Глупе Вбивство"
+L.aw_fst2_text = "забив першу людину, вистріливши по товаришу зраднику. Молодець."
 
-L.aw_fst3_title = "First Blooper"
-L.aw_fst3_text = "was the first to kill. Too bad it was an innocent comrade."
+L.aw_fst3_title = "Перший Курйоз"
+L.aw_fst3_text = "був першим, хто вбив. Шкода, що це був невинний товариш."
 
-L.aw_fst4_title = "First Blow"
-L.aw_fst4_text = "struck the first blow for the innocent terrorists by making the first death a traitor's."
+L.aw_fst4_title = "Перший Удар"
+L.aw_fst4_text = "завдав перший удар на користь невинних терористів, зробивши першою смерть зрадника."
 
-L.aw_all1_title = "Deadliest Among Equals"
-L.aw_all1_text = "was responsible for every kill made by the innocent this round."
+L.aw_all1_title = "Найсмертоносніший серед Рівних"
+L.aw_all1_text = "був відповідальним за кожне вбивство, скоєне невинними в цьому раунді."
 
-L.aw_all2_title = "Lone Wolf"
-L.aw_all2_text = "was responsible for every kill made by a traitor this round."
+L.aw_all2_title = "Одинокий Вовк"
+L.aw_all2_text = "був відповідальним за кожне вбивство, скоєне зрадниками в цьому раунді."
 
-L.aw_nkt1_title = "I Got One, Boss!"
-L.aw_nkt1_text = "managed to kill a single innocent. Sweet!"
+L.aw_nkt1_title = "Я Здобув Одного, Бос!"
+L.aw_nkt1_text = "зміг вбити одного невинного. Гарно!"
 
-L.aw_nkt2_title = "A Bullet For Two"
-L.aw_nkt2_text = "showed the first one was not a lucky shot by killing another."
+L.aw_nkt2_title = "Куля На Двох"
+L.aw_nkt2_text = "показав, що перше вбивство не було випадковим, вбивши ще одного."
 
-L.aw_nkt3_title = "Serial Traitor"
-L.aw_nkt3_text = "ended three innocent lives of terrorism today."
+L.aw_nkt3_title = "Серійний Зрадник"
+L.aw_nkt3_text = "припинив три життя невинних терористів сьогодні."
 
-L.aw_nkt4_title = "Wolf Among More Sheep-Like Wolves"
-L.aw_nkt4_text = "eats innocent terrorists for dinner. A dinner of {num} courses."
+L.aw_nkt4_title = "Вовк Серед Більш Вовкоподібних Вовків"
+L.aw_nkt4_text = "з’їдає невинних терористів на обід. Обід з {num} страв."
 
-L.aw_nkt5_title = "Counter-Terrorism Operative"
-L.aw_nkt5_text = "gets paid per kill. Can now buy another luxury yacht."
+L.aw_nkt5_title = "Оператив З Протитерористичних Заходів"
+L.aw_nkt5_text = "отримує гроші за кожне вбивство. Тепер може купити ще один розкішний яхт."
 
-L.aw_nki1_title = "Betray This"
-L.aw_nki1_text = "found a traitor. Shot a traitor. Easy."
+L.aw_nki1_title = "Відплатити Цим"
+L.aw_nki1_text = "знайшов зрадника. Вистрілив у зрадника. Просто."
 
-L.aw_nki2_title = "Applied to the Justice Squad"
-L.aw_nki2_text = "escorted two traitors to the great beyond."
+L.aw_nki2_title = "Прийнято до Складу Юстиційного Загону"
+L.aw_nki2_text = "сопроводжував двох зрадників на вічний спочин."
 
-L.aw_nki3_title = "Do Traitors Dream Of Traitorous Sheep?"
-L.aw_nki3_text = "put three traitors to rest."
+L.aw_nki3_title = "Чи Мріють Зрадницькі Вовки Про Зрадницьких Овець?"
+L.aw_nki3_text = "поклав на покой трьох зрадників."
 
-L.aw_nki4_title = "Internal Affairs Employee"
-L.aw_nki4_text = "gets paid per kill. Can now order their fifth swimming pool."
+L.aw_nki4_title = "Співробітник Внутрішніх Справ"
+L.aw_nki4_text = "отримує гроші за кожне вбивство. Тепер може замовити свій п'ятий плавальний басейн."
 
-L.aw_fal1_title = "No Mr. Bond, I Expect You To Fall"
-L.aw_fal1_text = "pushed someone off a great height."
+L.aw_fal1_title = "Не Пан Бонд, Я Чекаю, Поки Ти Впадеш"
+L.aw_fal1_text = "штовхнув когось з великої висоти."
 
-L.aw_fal2_title = "Floored"
-L.aw_fal2_text = "let their body hit the floor after falling from a significant altitude."
+L.aw_fal2_title = "Розбиття об Підлогу"
+L.aw_fal2_text = "дозволив своєму тілу впасти на підлогу після падіння з великої висоти."
 
-L.aw_fal3_title = "The Human Meteorite"
-L.aw_fal3_text = "crushed someone by falling on them from a great height."
+L.aw_fal3_title = "Людина-метеорит"
+L.aw_fal3_text = "розтрощив когось, впавши на них з великої висоти."
 
-L.aw_hed1_title = "Efficiency"
-L.aw_hed1_text = "discovered the joy of headshots and made {num}."
+L.aw_hed1_title = "Ефективність"
+L.aw_hed1_text = "відкрив радість від головних пострілів і зробив {num} з них."
 
-L.aw_hed2_title = "Neurology"
-L.aw_hed2_text = "removed the brains from {num} heads for a closer examination."
+L.aw_hed2_title = "Неврологія"
+L.aw_hed2_text = "вилучив мозки з {num} голів для детальнішого вивчення."
 
-L.aw_hed3_title = "Videogames Made Me Do It"
-L.aw_hed3_text = "applied their murder simulation training and headshotted {num} foes."
+L.aw_hed3_title = "Відеоігри Заставили Мене Це Зробити"
+L.aw_hed3_text = "застосував своє навчання в вбивстві з використанням симуляції та зробив {num} ворогів в голову."
 
-L.aw_cbr1_title = "Thunk Thunk Thunk"
-L.aw_cbr1_text = "has a mean swing with the crowbar, as {num} victims found out."
+L.aw_cbr1_title = "Дзеньк-дзеньк-дзеньк"
+L.aw_cbr1_text = "має гарний удар кийком, як про це знають {num} жертв."
 
-L.aw_cbr2_title = "Freeman"
-L.aw_cbr2_text = "covered their crowbar in the brains of no less than {num} people."
+L.aw_cbr2_title = "Фріман"
+L.aw_cbr2_text = "покрив свій кийком від голов мінімум {num} людей."
 
-L.aw_pst1_title = "Persistent Little Bugger"
-L.aw_pst1_text = "scored {num} kills using the pistol. Then they went on to hug someone to death."
+L.aw_pst1_title = "Наполегливий малюк"
+L.aw_pst1_text = "забив {num} вбивств, використовуючи пістолет. Потім вони перейшли до обіймання когось до смерті."
 
-L.aw_pst2_title = "Small Caliber Slaughter"
-L.aw_pst2_text = "killed a small army of {num} with a pistol. Presumably installed a tiny shotgun inside the barrel."
+L.aw_pst2_title = "Масове Вбивство Малокаліберними"
+L.aw_pst2_text = "вбиває малу армію з {num} осіб з пістолета. Ймовірно, встановили маленький дробовик всередині ствола."
 
-L.aw_sgn1_title = "Easy Mode"
-L.aw_sgn1_text = "applies the buckshot where it hurts, murdering {num} targets."
+L.aw_sgn1_title = "Режим Легко"
+L.aw_sgn1_text = "застосовує кулі з дробовика там, де це болить, вбиваючи {num} цілей."
 
-L.aw_sgn2_title = "A Thousand Little Pellets"
-L.aw_sgn2_text = "didn't really like their buckshot, so they gave it all away. {num} recipients did not live to enjoy it."
+L.aw_sgn2_title = "Тисяча Малих Снарядів"
+L.aw_sgn2_text = "не дуже подобається їх дробовик, тому вони віддають його усім. {num} одержувачів не залишилися живими, щоб насолодитися цим."
 
-L.aw_rfl1_title = "Point and Click"
-L.aw_rfl1_text = "shows all you need for {num} kills is a rifle and a steady hand."
+L.aw_rfl1_title = "Покажи та Клацни"
+L.aw_rfl1_text = "демонструє, що все, що вам потрібно для {num} вбивств - це гвинтівка і стійка рука."
 
-L.aw_rfl2_title = "I Can See Your Head From Here"
-L.aw_rfl2_text = "knows their rifle. Now {num} other people know the rifle too."
+L.aw_rfl2_title = "Я Бачу Твою Голову Звідси"
+L.aw_rfl2_text = "знає свою гвинтівку. Тепер про цю гвинтівку знають {num} інших людей."
 
-L.aw_dgl1_title = "It's Like A Tiny Rifle"
-L.aw_dgl1_text = "is getting the hang of the Desert Eagle and killed {num} people."
+L.aw_dgl1_title = "Це, Мов Маленька Гвинтівка"
+L.aw_dgl1_text = "вже набирається навичок у використанні Desert Eagle та вбив {num} людей."
 
-L.aw_dgl2_title = "Eagle Master"
-L.aw_dgl2_text = "blew away {num} people with the deagle."
+L.aw_dgl2_title = "Майстер Яструб"
+L.aw_dgl2_text = "поламав {num} людей з Desert Eagle."
 
-L.aw_mac1_title = "Pray and Slay"
-L.aw_mac1_text = "killed {num} people with the MAC10, but won't say how much ammo they needed."
+L.aw_mac1_title = "Молися і Вбивай"
+L.aw_mac1_text = "вбив {num} людей з MAC10, але не скаже, скільки амуніції вони витратили."
 
-L.aw_mac2_title = "Mac and Cheese"
-L.aw_mac2_text = "wonders what would happen if they could wield two MAC10s. {num} times two?"
+L.aw_mac2_title = "Mac і Сир"
+L.aw_mac2_text = "цікавиться, що станеться, якщо вони зможуть утримувати два MAC10. {num} рази два?"
 
-L.aw_sip1_title = "Be Quiet"
-L.aw_sip1_text = "shut {num} people up with the silenced pistol."
+L.aw_sip1_title = "Тиша"
+L.aw_sip1_text = "замовкнув {num} людей з глушителем на пістолеті."
 
-L.aw_sip2_title = "Silenced Assassin"
-L.aw_sip2_text = "killed {num} people who did not hear themselves die."
+L.aw_sip2_title = "Тихий вбивця"
+L.aw_sip2_text = "вбив {num} людей, які не почули, як вони помирають."
 
-L.aw_knf1_title = "Knife Knowing You"
-L.aw_knf1_text = "stabbed someone in the face over the internet."
+L.aw_knf1_title = "Ніж, Що Відомий Тобі"
+L.aw_knf1_text = "задушив когось обличчям через інтернет."
 
-L.aw_knf2_title = "Where Did You Get That From?"
-L.aw_knf2_text = "was not a Traitor, but still killed someone with a knife."
+L.aw_knf2_title = "Звідки Ти Це Взяв?"
+L.aw_knf2_text = "не був Зрадником, але все ж вбив когось ножем."
 
-L.aw_knf3_title = "Such A Knife Man"
-L.aw_knf3_text = "found {num} knives lying around, and made use of them."
+L.aw_knf3_title = "Майстер Ножа"
+L.aw_knf3_text = "знайшов {num} ножів, що лежали навколо, і використав їх."
 
-L.aw_knf4_title = "World's Knifest Man"
-L.aw_knf4_text = "killed {num} people with a knife. Don't ask me how."
+L.aw_knf4_title = "Найбільш Ножевий Людина Світу"
+L.aw_knf4_text = "вбив {num} людей ножем. Не питайте мене, як."
 
-L.aw_flg1_title = "To The Rescue"
-L.aw_flg1_text = "used their flares to signal for {num} deaths."
+L.aw_flg1_title = "На Допомогу"
+L.aw_flg1_text = "використовував свої підсвічники для сигналізації про {num} смертей."
 
-L.aw_flg2_title = "Flare Indicates Fire"
-L.aw_flg2_text = "taught {num} men about the danger of wearing flammable clothing."
+L.aw_flg2_title = "Підсвічник Спричиняє Вогонь"
+L.aw_flg2_text = "проінформував {num} людей про небезпеку носити запальний одяг."
 
-L.aw_hug1_title = "A H.U.G.E Spread"
-L.aw_hug1_text = "was in tune with their H.U.G.E, somehow managing to make their bullets hit {num} people."
+L.aw_hug1_title = "Широкий Розлет H.U.G.E"
+L.aw_hug1_text = "був у гармонії зі своїм H.U.G.E, якось змігши зробити так, що їх кулі потрапляли в {num} людей."
 
-L.aw_hug2_title = "A Patient Para"
-L.aw_hug2_text = "just kept firing, and saw their H.U.G.E patience rewarded with {num} kills."
+L.aw_hug2_title = "Терплячий Паратрив"
+L.aw_hug2_text = "постійно стріляв і був винагороджений своєю терплячістю з {num} вбивствами."
 
-L.aw_msx1_title = "Putt Putt Putt"
-L.aw_msx1_text = "picked off {num} people with the M16."
+L.aw_msx1_title = "Тук-тук-тук"
+L.aw_msx1_text = "знищив {num} людей з M16."
 
-L.aw_msx2_title = "Mid-range Madness"
-L.aw_msx2_text = "knows how to take down targets with the M16, scoring {num} kills."
+L.aw_msx2_title = "Божевільний на середній дистанції"
+L.aw_msx2_text = "вміє знищувати цілі з M16 і набрав {num} вбивств."
 
-L.aw_tkl1_title = "Made An Oopsie"
-L.aw_tkl1_text = "had their finger slip just when they were aiming at a buddy."
+L.aw_tkl1_title = "Зробив помилку"
+L.aw_tkl1_text = "поклав палець на спусковий гачок, коли мав бити по товаришу."
 
-L.aw_tkl2_title = "Double-Oops"
-L.aw_tkl2_text = "thought they got a Traitor twice, but was wrong both times."
+L.aw_tkl2_title = "Подвійна помилка"
+L.aw_tkl2_text = "думав, що двічі вбив зрадника, але обидва рази помилився."
 
-L.aw_tkl3_title = "Karma-conscious"
-L.aw_tkl3_text = "couldn't stop after killing two teammates. Three is their lucky number."
+L.aw_tkl3_title = "Свідомість карми"
+L.aw_tkl3_text = "не зміг зупинитися після вбивства двох товаришів. Третє вбивство - їх щасливий номер."
 
-L.aw_tkl4_title = "Teamkiller"
-L.aw_tkl4_text = "murdered the entirety of their team. OMGBANBANBAN."
+L.aw_tkl4_title = "Вбивця команди"
+L.aw_tkl4_text = "вбив усю свою команду. OMGBANBANBAN."
 
-L.aw_tkl5_title = "Roleplayer"
-L.aw_tkl5_text = "was roleplaying a madman, honest. That's why they killed most of their team."
+L.aw_tkl5_title = "Рольовий гравець"
+L.aw_tkl5_text = "грав роль безглуздого божевільника, чесно. Тому він вбив більшість своєї команди."
 
-L.aw_tkl6_title = "Moron"
-L.aw_tkl6_text = "couldn't figure out which side they were on, and killed over half of their comrades."
+L.aw_tkl6_title = "Дурень"
+L.aw_tkl6_text = "не зміг визначити, з якої сторони він, і вбив більшу половину своїх товаришів."
 
-L.aw_tkl7_title = "Redneck"
-L.aw_tkl7_text = "protected their turf real good by killing over a quarter of their teammates."
+L.aw_tkl7_title = "Реднек"
+L.aw_tkl7_text = "добре захистив свою територію, вбивши понад чверть своїх товаришів."
 
-L.aw_brn1_title = "Like Grandma Used To Make Them"
-L.aw_brn1_text = "fried several people to a nice crisp."
+L.aw_brn1_title = "Як колись готувала бабуся"
+L.aw_brn1_text = "смажив кілька людей до хрусткої скоринки."
 
-L.aw_brn2_title = "Pyroid"
-L.aw_brn2_text = "was heard cackling loudly after burning one of their many victims."
+L.aw_brn2_title = "Пироповісник"
+L.aw_brn2_text = "було чутно, як вони голосно засміялися, підпаливши одного зі своїх багатьох жертв."
 
-L.aw_brn3_title = "Pyrrhic Burnery"
-L.aw_brn3_text = "burned them all, but is now all out of incendiary grenades! How will they cope!?"
+L.aw_brn3_title = "Піррова паління"
+L.aw_brn3_text = "випалив усіх, але зараз у них закінчилися запальні гранати! Як вони це переживуть!?"
 
-L.aw_fnd1_title = "Coroner"
-L.aw_fnd1_text = "found {num} bodies lying around."
+L.aw_fnd1_title = "Коронер"
+L.aw_fnd1_text = "знайшов {num} тіл, лежачих навколо."
 
-L.aw_fnd2_title = "Gotta Catch Em All"
-L.aw_fnd2_text = "found {num} corpses for their collection."
+L.aw_fnd2_title = "Злови їх усіх"
+L.aw_fnd2_text = "знайшов {num} трупів для своєї колекції."
 
-L.aw_fnd3_title = "Death Scent"
-L.aw_fnd3_text = "keeps stumbling on random corpses, {num} times this round."
+L.aw_fnd3_title = "Запах смерті"
+L.aw_fnd3_text = "постійно натрапляє на випадкові трупи, {num} разів цього раунду."
 
-L.aw_crd1_title = "Recycler"
-L.aw_crd1_text = "scrounged up {num} leftover credits from corpses."
+L.aw_crd1_title = "Переробник"
+L.aw_crd1_text = "видобув {num} залишкових кредитів з трупів."
 
-L.aw_tod1_title = "Pyrrhic Victory"
-L.aw_tod1_text = "died only seconds before their team won the round."
+L.aw_tod1_title = "Піррова перемога"
+L.aw_tod1_text = "помер лише кілька секунд до перемоги своєї команди у раунді."
 
-L.aw_tod2_title = "I Hate This Game"
-L.aw_tod2_text = "died right after the start of the round."
+L.aw_tod2_title = "Ненавиджу цю гру"
+L.aw_tod2_text = "помер одразу після початку раунду."
 
 -- New and modified pieces of text are placed below this point, marked with the
 -- version in which they were added, to make updating translations easier.
 
 -- v24
-L.drop_no_ammo = "Insufficient ammo in your weapon's clip to drop as an ammo box."
+L.drop_no_ammo = "Недостатньо боєприпасів у магазині зброї, щоб випустити ящик з боєприпасами."
 
--- 2015-05-25
-L.hat_retrieve = "You picked up a Detective's hat."
+L.hat_retrieve = "Ви підібрали шапку детектива."
 
--- 2017-09-03
-L.sb_sortby = "Sort By:"
+L.sb_sortby = "Сортувати за:"
 
--- 2018-07-24
-L.equip_tooltip_main = "Equipment menu"
-L.equip_tooltip_radar = "Radar control"
-L.equip_tooltip_disguise = "Disguise control"
-L.equip_tooltip_radio = "Radio control"
-L.equip_tooltip_xfer = "Transfer credits"
-L.equip_tooltip_reroll = "Reroll Items"
+L.equip_tooltip_main = "Меню екіпіровки"
+L.equip_tooltip_radar = "Управління радаром"
+L.equip_tooltip_disguise = "Управління маскуванням"
+L.equip_tooltip_radio = "Управління радіо"
+L.equip_tooltip_xfer = "Передача кредитів"
+L.equip_tooltip_reroll = "Перегенерація предметів"
 
-L.confgrenade_name = "Discombobulator"
-L.polter_name = "Poltergeist"
-L.stungun_name = "UMP Prototype"
+L.confgrenade_name = "Дискомбобулятор"
+L.polter_name = "Полтергейст"
+L.stungun_name = "Прототип UMP"
 
-L.knife_instant = "INSTANT KILL"
+L.knife_instant = "МИТТЄВЕ ВБИВСТВО"
 
-L.binoc_zoom_level = "Zoom Level"
-L.binoc_body = "BODY DETECTED"
+L.binoc_zoom_level = "Рівень збільшення"
+L.binoc_body = "ВИЯВЛЕНО ТІЛО"
 
-L.idle_popup_title = "Idle"
+L.idle_popup_title = "Неактивність"
 
 -- 2019-01-31
-L.create_own_shop = "Create own shop"
-L.shop_link = "Link with"
-L.shop_disabled = "Disable shop"
-L.shop_default = "Use default shop"
+L.create_own_shop = "Створити власний магазин"
+L.shop_link = "Посилання на"
+L.shop_disabled = "Вимкнути магазин"
+L.shop_default = "Використовувати магазин за замовчуванням"
 
--- 2019-05-05
-L.reroll_name = "Reroll"
-L.reroll_menutitle = "Reroll Items"
-L.reroll_no_credits = "You need {amount} credits to reroll!"
-L.reroll_button = "Reroll"
-L.reroll_help = "Use {amount} credits to get new items in your shop!"
+L.reroll_name = "Перегенерувати"
+L.reroll_menutitle = "Перегенерація предметів"
+L.reroll_no_credits = "Вам потрібно {amount} кредитів, щоб перегенерувати!"
+L.reroll_button = "Перегенерувати"
+L.reroll_help = "Використовуйте {amount} кредитів, щоб отримати нові предмети у своєму магазині!"
 
--- 2019-05-06
-L.equip_not_alive = "You can view all available items by selecting a role on the right. Don't forget to mark your favorites!"
+L.equip_not_alive = "Ви можете переглянути всі доступні предмети, вибравши роль справа. Не забудьте відмітити свої улюблені предмети!"
 
--- 2019-06-27
-L.shop_editor_title = "Shop Editor"
-L.shop_edit_items_weapong = "Edit Items / Weapons"
-L.shop_edit = "Edit Shops"
-L.shop_settings = "Settings"
-L.shop_select_role = "Select Role"
-L.shop_edit_items = "Edit Items"
-L.shop_edit_shop = "Edit Shop"
-L.shop_create_shop = "Create Custom Shop"
-L.shop_selected = "Selected {role}"
-L.shop_settings_desc = "Change the values to adapt Random Shop ConVars. Don't forget to save your changes!"
+L.shop_editor_title = "Редактор магазину"
+L.shop_edit_items_weapong = "Редагувати предмети / Зброю"
+L.shop_edit = "Редагувати магазини"
+L.shop_settings = "Налаштування"
+L.shop_select_role = "Виберіть роль"
+L.shop_edit_items = "Редагувати предмети"
+L.shop_edit_shop = "Редагувати магазин"
+L.shop_create_shop = "Створити власний магазин"
+L.shop_selected = "Обрано {role}"
+L.shop_settings_desc = "Змініть значення для налаштування змінних Random Shop. Не забудьте зберегти зміни!"
 
-L.bindings_new = "New bound key for {name}: {key}"
+L.bindings_new = "Нова прив'язка клавіші для {name}: {key}"
 
-L.hud_default_failed = "Failed to set the HUD {hudname} as new default. You don't have permission to do that, or this HUD doesn't exist."
-L.hud_forced_failed = "Failed to force the HUD {hudname}. You don't have permission to do that, or this HUD doesn't exist."
-L.hud_restricted_failed = "Failed to restrict the HUD {hudname}. You don't have permission to do that."
+L.hud_default_failed = "Не вдалося встановити HUD {hudname} як новий за замовчуванням. У вас немає прав на це або цей HUD не існує."
+L.hud_forced_failed = "Не вдалося встановити примусовий HUD {hudname}. У вас немає прав на це або цей HUD не існує."
+L.hud_restricted_failed = "Не вдалося обмежити HUD {hudname}. У вас немає прав на це."
 
-L.shop_role_select = "Select a role"
-L.shop_role_selected = "{role}'s shop was selected!"
-L.shop_search = "Search"
+L.shop_role_select = "Виберіть роль"
+L.shop_role_selected = "Обрано магазин для {role}!"
+L.shop_search = "Пошук"
 
-L.spec_help = "Click to spectate players, or press {usekey} on a physics object to possess it."
-L.spec_help2 = "To leave the spectator mode, open the menu by pressing {helpkey}, go to 'gameplay' and toggle the spectator mode."
+L.spec_help = "Натисніть, щоб спостерігати за гравцями або натисніть {usekey} на фізичний об'єкт, щоб його використати."
+L.spec_help2 = "Щоб вийти з режиму спостереження, відкрийте меню, натиснувши {helpkey}, перейдіть до розділу 'геймплей' і вимкніть режим спостереження."
 
 -- 2019-10-19
-L.drop_ammo_prevented = "Something prevents you from dropping your ammo."
+L.drop_ammo_prevented = "Щось перешкоджає вам викинути боєприпаси."
 
--- 2019-10-28
-L.target_c4 = "Press [{usekey}] to open C4 menu"
-L.target_c4_armed = "Press [{usekey}] to disarm C4"
-L.target_c4_armed_defuser = "Press [{usekey}] to use defuser"
-L.target_c4_not_disarmable = "You can't disarm C4 of a living teammate"
-L.c4_short_desc = "Something very explosive"
+L.target_c4 = "Натисніть [{usekey}], щоб відкрити меню C4."
+L.target_c4_armed = "Натисніть [{usekey}], щоб розбомбити C4."
+L.target_c4_armed_defuser = "Натисніть [{usekey}], щоб використати деактиватор."
+L.target_c4_not_disarmable = "Ви не можете розбомбити C4 живого товариша по команді."
+L.c4_short_desc = "Щось дуже вибухове"
 
-L.target_pickup = "Press [{usekey}] to pick up"
-L.target_slot_info = "Slot: {slot}"
-L.target_pickup_weapon = "Press [{usekey}] to pickup weapon"
-L.target_switch_weapon = "Press [{usekey}] to swap with your current weapon"
-L.target_pickup_weapon_hidden = ", press [{usekey} + {walkkey}] for hidden pickup"
-L.target_switch_weapon_hidden = ", press [{usekey} + {walkkey}] for hidden switch"
-L.target_switch_weapon_nospace = "There is no inventory slot available for this weapon"
-L.target_switch_drop_weapon_info = "Dropping {name} from slot {slot}"
-L.target_switch_drop_weapon_info_noslot = "There is no droppable weapon in slot {slot}"
+L.target_pickup = "Натисніть [{usekey}], щоб підняти."
+L.target_slot_info = "Слот: {slot}"
+L.target_pickup_weapon = "Натисніть [{usekey}], щоб підняти зброю."
+L.target_switch_weapon = "Натисніть [{usekey}], щоб замінити на вашу поточну зброю."
+L.target_pickup_weapon_hidden = ", натисніть [{usekey} + {walkkey}] для прихованого підняття."
+L.target_switch_weapon_hidden = ", натисніть [{usekey} + {walkkey}] для прихованої заміни."
+L.target_switch_weapon_nospace = "Відсутні слоти інвентаря для цієї зброї."
+L.target_switch_drop_weapon_info = "Зброя {name} видалена зі слоту {slot}."
+L.target_switch_drop_weapon_info_noslot = "В слоті {slot} немає зброї, яку можна видалити."
 
-L.corpse_searched_by_detective = "This corpse was searched by a detective"
-L.corpse_too_far_away = "The corpse is too far away."
+L.corpse_searched_by_detective = "Цей труп був обшуканий детективом."
+L.corpse_too_far_away = "Труп занадто далеко."
 
-L.radio_pickup_wrong_team = "You can't pick up the radio from another team."
-L.radio_short_desc = "Weapon sounds are music to me"
+L.radio_pickup_wrong_team = "Ви не можете підняти радіо з іншої команди."
+L.radio_short_desc = "Звуки зброї для мене – музика"
 
-L.hstation_subtitle = "Press [{usekey}] to receive health."
-L.hstation_charge = "Remaining charge of health station: {charge}"
-L.hstation_empty = "There is no more charge left in this health station"
-L.hstation_maxhealth = "Your health is full"
-L.hstation_short_desc = "The heath station slowly recharges over time"
+L.hstation_subtitle = "Натисніть [{usekey}], щоб відновити здоров'я."
+L.hstation_charge = "Залишок заряду станції здоров'я: {charge}"
+L.hstation_empty = "Заряд у станції здоров'я закінчився."
+L.hstation_maxhealth = "Ваше здоров'я повне."
+L.hstation_short_desc = "Станція здоров'я повільно заряджається з плином часу."
 
 -- 2019-11-03
-L.vis_short_desc = "Visualizes a crime scene if the victim died by a gunshot wound"
-L.corpse_binoculars = "Press [{key}] to search corpse with binoculars."
-L.binoc_progress = "Search progress: {progress}%"
+L.vis_short_desc = "Візуалізує місце злочину, якщо жертва померла від кулі"
 
-L.pickup_no_room = "You have no space in your inventory for this weapon kind."
-L.pickup_fail = "You cannot pick up this weapon."
-L.pickup_pending = "You already picked up a weapon, wait until you receive it."
+L.corpse_binoculars = "Натисніть [{key}], щоб переглянути труп за допомогою бінокля."
+L.binoc_progress = "Прогрес пошуку: {progress}%"
 
--- 2020-01-07
-L.tbut_help_admin = "Edit traitor button settings"
-L.tbut_role_toggle = "[{walkkey} + {usekey}] to toggle this button for {role}"
-L.tbut_role_config = "Role: {current}"
-L.tbut_team_toggle = "[SHIFT + {walkkey} + {usekey}] to toggle this button for team {team}"
-L.tbut_team_config = "Team: {current}"
-L.tbut_current_config = "Current config:"
-L.tbut_intended_config = "Intended config by map creator:"
-L.tbut_admin_mode_only = "You see this button because you're an admin and '{cv}' is set to '1'."
-L.tbut_allow = "Allow"
-L.tbut_prohib = "Prohibit"
-L.tbut_default = "Default"
+L.pickup_no_room = "У вас немає місця в інвентарі для цього виду зброї."
+L.pickup_fail = "Ви не можете підняти цю зброю."
+L.pickup_pending = "Ви вже підібрали зброю, зачекайте, поки ви її отримаєте."
 
--- 2020-02-09
-L.name_door = "Door"
-L.door_open = "Press [{usekey}] to open door."
-L.door_close = "Press [{usekey}] to close door."
-L.door_locked = "This door is locked."
+L.tbut_help_admin = "Редагувати налаштування кнопки зрадника"
+L.tbut_role_toggle = "[{walkkey} + {usekey}] для перемикання цієї кнопки для {role}"
+L.tbut_role_config = "Роль: {current}"
+L.tbut_team_toggle = "[SHIFT + {walkkey} + {usekey}] для перемикання цієї кнопки для команди {team}"
+L.tbut_team_config = "Команда: {current}"
+L.tbut_current_config = "Поточна конфігурація:"
+L.tbut_intended_config = "Задумана конфігурація створювачем карти:"
+L.tbut_admin_mode_only = "Ви бачите цю кнопку, оскільки ви адміністратор, і '{cv}' встановлено на '1'."
+L.tbut_allow = "Дозволити"
+L.tbut_prohib = "Заборонити"
+L.tbut_default = "Стандартно"
 
--- 2020-02-11
-L.automoved_to_spec = "(AUTOMATED MESSAGE) I have been moved to the Spectator team because I was idle/AFK."
-L.mute_team = "{team} muted."
+L.name_door = "Двері"
+L.door_open = "Натисніть [{usekey}], щоб відкрити двері."
+L.door_close = "Натисніть [{usekey}], щоб закрити двері."
+L.door_locked = "Ці двері закриті."
 
--- 2020-02-16
-L.door_auto_closes = "This door closes automatically."
-L.door_open_touch = "Walk into door to open."
-L.door_open_touch_and_use = "Walk into door or press [{usekey}] to open."
-L.hud_health = "Health"
+L.automoved_to_spec = "(АВТОМАТИЧНЕ ПОВІДОМЛЕННЯ) Мене перемістили до команди Спостерігачів, тому що я був бездіяльний/АФК."
+L.mute_team = "{team} заглушено."
+
+L.door_auto_closes = "Ці двері автоматично закриваються."
+L.door_open_touch = "Підійдіть до дверей, щоб відкрити їх."
+L.door_open_touch_and_use = "Підійдіть до дверей або натисніть [{usekey}], щоб відкрити їх."
+L.hud_health = "Здоров'я"
 
 -- 2020-03-09
-L.help_title = "Help and Settings"
+L.help_title = "Довідка та налаштування"
 
-L.menu_changelog_title = "Changelog"
-L.menu_guide_title = "TTT2 Guide"
-L.menu_bindings_title = "Key Bindings"
-L.menu_language_title = "Language"
-L.menu_appearance_title = "Appearance"
-L.menu_gameplay_title = "Gameplay"
-L.menu_addons_title = "Addons"
-L.menu_legacy_title = "Legacy Addons"
-L.menu_administration_title = "Administration"
-L.menu_equipment_title = "Edit Equipment"
-L.menu_shops_title = "Edit Shops"
+L.menu_changelog_title = "Журнал змін"
+L.menu_guide_title = "Посібник TTT2"
+L.menu_bindings_title = "Прив'язки клавіш"
+L.menu_language_title = "Мова"
+L.menu_appearance_title = "Зовнішній вигляд"
+L.menu_gameplay_title = "Геймплей"
+L.menu_addons_title = "Додатки"
+L.menu_legacy_title = "Спадкові додатки"
+L.menu_administration_title = "Адміністрування"
+L.menu_equipment_title = "Редагувати обладнання"
+L.menu_shops_title = "Редагувати магазини"
 
-L.menu_changelog_description = "A list of changes and fixes in recent versions."
-L.menu_guide_description = "Helps you to get started with TTT2 and explains some things about gameplay, roles and other stuff."
-L.menu_bindings_description = "Bind specific features of TTT2 and its addons to your own liking."
-L.menu_language_description = "Select the language of the gamemode."
-L.menu_appearance_description = "Tweak the appearance and performance of the UI."
-L.menu_gameplay_description = "Avoid roles and tweak some features."
-L.menu_addons_description = "Configure local addons to your liking."
-L.menu_legacy_description = "A panel with converted tabs from the original TTT that should be ported over to the new system."
-L.menu_administration_description = "General settings for HUDs, shops etc."
-L.menu_equipment_description = "Set credits, limitations, availability and other stuff."
-L.menu_shops_description = "Add/Remove shops for roles and configure what equipment they have."
+L.menu_changelog_description = "Список змін і виправлень в останніх версіях."
+L.menu_guide_description = "Допомагає вам розібратися з TTT2 і пояснює деякі речі про геймплей, ролі та інші речі."
+L.menu_bindings_description = "Прив'язка конкретних функцій TTT2 та його додатків до вашого власного смаку."
+L.menu_language_description = "Виберіть мову гейммоду."
+L.menu_appearance_description = "Налаштуйте зовнішній вигляд та продуктивність користувальницького інтерфейсу."
+L.menu_gameplay_description = "Уникайте ролей та налаштуйте деякі функції."
+L.menu_addons_description = "Налаштуйте локальні додатки на свій смак."
+L.menu_legacy_description = "Панель з конвертованими вкладками з оригінального TTT, які слід перенести в нову систему."
+L.menu_administration_description = "Загальні налаштування для HUD, магазинів тощо."
+L.menu_equipment_description = "Встановіть кредити, обмеження, доступність та інші речі."
+L.menu_shops_description = "Додавання/видалення магазинів для ролей та налаштування їх обладнання."
 
-L.submenu_guide_gameplay_title = "Gameplay"
-L.submenu_guide_roles_title = "Roles"
-L.submenu_guide_equipment_title = "Equipment"
+L.submenu_guide_gameplay_title = "Геймплей"
+L.submenu_guide_roles_title = "Ролі"
+L.submenu_guide_equipment_title = "Обладнання"
 
-L.submenu_bindings_bindings_title = "Bindings"
+L.submenu_bindings_bindings_title = "Прив'язки"
 
-L.submenu_language_language_title = "Language"
+L.submenu_language_language_title = "Мова"
 
-L.submenu_appearance_general_title = "General"
-L.submenu_appearance_hudswitcher_title = "HUD Switcher"
+L.submenu_appearance_general_title = "Загальне"
+L.submenu_appearance_hudswitcher_title = "Перемикач HUD"
 L.submenu_appearance_vskin_title = "VSkin"
 L.submenu_appearance_targetid_title = "TargetID"
-L.submenu_appearance_shop_title = "Shop Settings"
-L.submenu_appearance_crosshair_title = "Crosshair"
-L.submenu_appearance_dmgindicator_title = "Damage Indicator"
-L.submenu_appearance_performance_title = "Performance"
-L.submenu_appearance_interface_title = "Interface"
-L.submenu_appearance_miscellaneous_title = "Misellaneous"
+L.submenu_appearance_shop_title = "Налаштування магазину"
+L.submenu_appearance_crosshair_title = "Приціл"
+L.submenu_appearance_dmgindicator_title = "Індикатор пошкоджень"
+L.submenu_appearance_performance_title = "Продуктивність"
+L.submenu_appearance_interface_title = "Інтерфейс"
+L.submenu_appearance_miscellaneous_title = "Різне"
 
-L.submenu_gameplay_general_title = "General"
-L.submenu_gameplay_avoidroles_title = "Avoid Role Selection"
+L.submenu_gameplay_general_title = "Загальне"
+L.submenu_gameplay_avoidroles_title = "Уникнення вибору ролі"
 
-L.submenu_administration_hud_title = "HUD Settings"
-L.submenu_administration_randomshop_title = "Random Shop"
+L.submenu_administration_hud_title = "Налаштування HUD"
+L.submenu_administration_randomshop_title = "Випадковий магазин"
 
-L.help_color_desc = "If this setting is enabled, you can choose a global color that will be used for the targetID outline and the crosshair."
-L.help_scale_factor = "This scale factor influences all UI elements (HUD, VGUI and TargetID). It is automatically updated if the screen resolution is changed. Changing this value will reset the HUD!"
-L.help_hud_game_reload = "The HUD is not available right now. Reconnect to the server or relaunch the game."
-L.help_hud_special_settings = "These are specific settings of this HUD."
-L.help_vskin_info = "VSkin (VGUI skin) is the skin applied to all menu elements like the current one. They can be easily created with a simple Lua script and can change colors and some size parameters."
-L.help_targetid_info = "TargetID is the information rendered when pointing your crosshair at an entity. Its color can be configured in the 'General' tab."
-L.help_hud_default_desc = "Sets the default HUD for all players. Players that have not yet selected a HUD will receive this HUD as their default. Changing this won't change the HUD for players that have already selected their HUD."
-L.help_hud_forced_desc = "Forces a HUD for all players. This disables the HUD selection feature for everyone."
-L.help_hud_enabled_desc = "Enable/Disable HUDs to restrict the selection of these HUDs."
-L.help_damage_indicator_desc = "The damage indicator is the overlay shown when the player is damaged. To add a new theme, place a png in 'materials/vgui/ttt/damageindicator/themes/'."
-L.help_shop_key_desc = "Open the shop by pressing the shop key instead of the score menu during preparing / at the end of a round?"
+L.help_color_desc = "Якщо ця настройка увімкнена, ви можете вибрати глобальний колір, який буде використовуватися для контуру TargetID та прицілу."
+L.help_scale_factor = "Цей коефіцієнт масштабу впливає на всі елементи користувальницького інтерфейсу (HUD, VGUI та TargetID). Він автоматично оновлюється, якщо змінюється розширення екрану. Зміна цього значення скине HUD!"
+L.help_hud_game_reload = "HUD зараз недоступний. Перепідключіться до сервера або перезапустіть гру."
+L.help_hud_special_settings = "Це спеціальні налаштування цього HUD."
+L.help_vskin_info = "VSkin (VGUI шкіра) - це шкіра, застосована до всіх елементів меню, подібних до поточного. Вони можуть бути легко створені з простим скриптом Lua та можуть змінювати кольори та деякі параметри розміру."
+L.help_targetid_info = "TargetID - це інформація, відображена при наведенні перехресного волосини на сутність. Її колір можна налаштувати в розділі 'Загальне'."
+L.help_hud_default_desc = "Встановлює стандартний HUD для всіх гравців. Гравці, які ще не вибрали HUD, отримають цей HUD як стандартний. Зміна цього параметра не змінює HUD для гравців, які вже вибрали свій HUD."
+L.help_hud_forced_desc = "Примушує HUD для всіх гравців. Це вимикає можливість вибору HUD для всіх."
+L.help_hud_enabled_desc = "Увімкнути/вимкнути HUD для обмеження вибору цих HUD."
+L.help_damage_indicator_desc = "Індикатор пошкоджень - це оверлей, який відображається, коли гравець отримує пошкодження. Щоб додати нову тему, розмістіть png-файл у 'materials/vgui/ttt/damageindicator/themes/'."
+L.help_shop_key_desc = "Відкривати магазин, натискаючи клавішу магазину замість меню з рейтингом під час підготовки / в кінці раунду?"
 
-L.label_menu_menu = "MENU"
-L.label_menu_admin_spacer = "Admin Area (not shown to normal users)"
-L.label_language_set = "Select language"
-L.label_global_color_enable = "Enable global color"
-L.label_global_color = "Global color"
-L.label_global_scale_factor = "Global scale factor"
-L.label_hud_select = "Select HUD"
-L.label_vskin_select = "Select VSkin"
-L.label_blur_enable = "Enable VSkin background blur"
-L.label_color_enable = "Enable VSkin background color"
-L.label_minimal_targetid = "Minimalist Target ID under crosshair (no Karma text, hints etc.)"
-L.label_shop_always_show = "Always show the shop"
-L.label_shop_double_click_buy = "Enable an item purchase by double-clicking on it in the shop"
-L.label_shop_num_col = "Number of columns"
-L.label_shop_num_row = "Number of rows"
-L.label_shop_item_size = "Icon size"
-L.label_shop_show_slot = "Show slot marker"
-L.label_shop_show_custom = "Show custom item marker"
-L.label_shop_show_fav = "Show favourite item marker"
-L.label_crosshair_enable = "Enable crosshair"
-L.label_crosshair_gap_enable = "Enable custom crosshair gap"
-L.label_crosshair_gap = "Custom crosshair gap"
-L.label_crosshair_opacity = "Crosshair opacity"
-L.label_crosshair_ironsight_opacity = "Ironsight crosshair opacity"
-L.label_crosshair_size = "Crosshair size"
-L.label_crosshair_thickness = "Crosshair thickness"
-L.label_crosshair_thickness_outline = "Crosshair outline thickness"
-L.label_crosshair_static_enable = "Enable static crosshair"
-L.label_crosshair_dot_enable = "Enable crosshair dot"
-L.label_crosshair_lines_enable = "Enable crosshair lines"
-L.label_crosshair_scale_enable = "Enable weapon dependant weapon scale"
-L.label_crosshair_ironsight_low_enabled = "Lower weapon when using ironsights"
-L.label_damage_indicator_enable = "Enable damage indicator"
-L.label_damage_indicator_mode = "Select damage indicator theme"
-L.label_damage_indicator_duration = "Fade time after getting hit (in seconds)"
-L.label_damage_indicator_maxdamage = "Damage needed for the maximum opacity"
-L.label_damage_indicator_maxalpha = "Maximum opacity"
-L.label_performance_halo_enable = "Draw an outline around some entities while looking at them"
-L.label_performance_spec_outline_enable = "Enable controlled objects' outlines"
-L.label_performance_ohicon_enable = "Enable role icons over players' heads"
-L.label_interface_tips_enable = "Show gameplay tips at the bottom of the screen while spectating"
-L.label_interface_popup = "Start of round info popup duration"
-L.label_interface_fastsw_menu = "Enable menu with fast weapon switch"
-L.label_inferface_wswitch_hide_enable = "Enable weapon switch menu auto-closing"
-L.label_inferface_scues_enable = "Play sound cue when a round begins or ends"
-L.label_gameplay_specmode = "Spectate-only mode (always stay spectator)"
-L.label_gameplay_fastsw = "Fast weapon switch"
-L.label_gameplay_hold_aim = "Enable hold to aim"
-L.label_gameplay_mute = "Mute living players when dead"
-L.label_gameplay_dtsprint_enable = "Enable double tap sprinting"
-L.label_gameplay_dtsprint_anykey = "Continue double tap sprinting until you stop moving"
-L.label_hud_default = "Default HUD"
-L.label_hud_force = "Forced HUD"
+L.label_menu_menu = "МЕНЮ"
+L.label_menu_admin_spacer = "Адмінська область (не відображається звичайним користувачам)"
+L.label_language_set = "Виберіть мову"
+L.label_global_color_enable = "Увімкнути глобальний колір"
+L.label_global_color = "Глобальний колір"
+L.label_global_scale_factor = "Глобальний масштабний фактор"
+L.label_hud_select = "Виберіть HUD"
+L.label_vskin_select = "Виберіть VSkin"
+L.label_blur_enable = "Увімкнути розмиття фону VSkin"
+L.label_color_enable = "Увімкнути колір фону VSkin"
+L.label_minimal_targetid = "Мінімалістичний ідентифікатор цілей під перекресленням (без тексту карми, підказок тощо)"
+L.label_shop_always_show = "Завжди показувати магазин"
+L.label_shop_double_click_buy = "Увімкнути покупку предмету подвійним клацанням у магазині"
+L.label_shop_num_col = "Кількість стовпців"
+L.label_shop_num_row = "Кількість рядків"
+L.label_shop_item_size = "Розмір іконки"
+L.label_shop_show_slot = "Показувати маркер слоту"
+L.label_shop_show_custom = "Показувати маркер користувальницького предмету"
+L.label_shop_show_fav = "Показувати маркер улюбленого предмету"
+L.label_crosshair_enable = "Увімкнути приціл"
+L.label_crosshair_gap_enable = "Увімкнути власний розрив прицілу"
+L.label_crosshair_gap = "Власний розрив прицілу"
+L.label_crosshair_opacity = "Прозорість прицілу"
+L.label_crosshair_ironsight_opacity = "Прозорість прицілу в режимі прицілювання"
+L.label_crosshair_size = "Розмір прицілу"
+L.label_crosshair_thickness = "Товщина прицілу"
+L.label_crosshair_thickness_outline = "Товщина контуру прицілу"
+L.label_crosshair_static_enable = "Увімкнути статичний приціл"
+L.label_crosshair_dot_enable = "Увімкнути крапку прицілу"
+L.label_crosshair_lines_enable = "Увімкнути лінії прицілу"
+L.label_crosshair_scale_enable = "Увімкнути масштаб зброї в залежності від зброї"
+L.label_crosshair_ironsight_low_enabled = "Опустити зброю при використанні прицілу"
+L.label_damage_indicator_enable = "Увімкнути індикатор пошкоджень"
+L.label_damage_indicator_mode = "Виберіть тему індикатора пошкоджень"
+L.label_damage_indicator_duration = "Час зникнення після отримання удару (у секундах)"
+L.label_damage_indicator_maxdamage = "Пошкодження, необхідні для максимальної прозорості"
+L.label_damage_indicator_maxalpha = "Максимальна прозорість"
+L.label_performance_halo_enable = "Намалювати контур навколо деяких об'єктів, коли на них дивитися"
+L.label_performance_spec_outline_enable = "Увімкнути контури керованих об'єктів"
+L.label_performance_ohicon_enable = "Увімкнути значки ролей над головами гравців"
+L.label_interface_tips_enable = "Показувати поради гри внизу екрана під час спостереження"
+L.label_interface_popup = "Тривалість спливаючого повідомлення на початку раунду"
+L.label_interface_fastsw_menu = "Увімкнути меню швидкого перемикання зброї"
+L.label_inferface_wswitch_hide_enable = "Увімкнути автоматичне закриття меню перемикання зброєю"
+L.label_inferface_scues_enable = "Відтворити звуковий сигнал під час початку або закінчення раунду"
+L.label_gameplay_specmode = "Режим лише спостереження (завжди залишатися у спостереженні)"
+L.label_gameplay_fastsw = "Швидке перемикання зброї"
+L.label_gameplay_hold_aim = "Увімкнути утримання для прицілювання"
+L.label_gameplay_mute = "Вимкнути звук у живих гравців, коли ви мертві"
+L.label_gameplay_dtsprint_enable = "Увімкнути подвійне натискання для бігу"
+L.label_gameplay_dtsprint_anykey = "Продовжувати подвійне натискання для бігу, поки ви не перестанете рухатися"
+L.label_hud_default = "Стандартний HUD"
+L.label_hud_force = "Примусовий HUD"
 
-L.label_bind_weaponswitch = "Pickup Weapon"
-L.label_bind_sprint = "Sprint"
-L.label_bind_voice = "Global Voice Chat"
-L.label_bind_voice_team = "Team Voice Chat"
+L.label_bind_weaponswitch = "Підібрати зброю"
+L.label_bind_sprint = "Біг"
+L.label_bind_voice = "Глобальний голосовий чат"
+L.label_bind_voice_team = "Голосовий чат команди"
 
-L.label_hud_basecolor = "Base Color"
+L.label_hud_basecolor = "Основний колір HUD"
 
-L.label_menu_not_populated = "This submenu does not contain any content."
+L.label_menu_not_populated = "Цей підменю не містить контенту."
 
-L.header_bindings_ttt2 = "TTT2 Bindings"
-L.header_bindings_other = "Other Bindings"
-L.header_language = "Language Settings"
-L.header_global_color = "Select Global Color"
-L.header_hud_select = "Select a HUD"
-L.header_hud_customize = "Customize the HUD"
-L.header_vskin_select = "Select and Customize the VSkin"
-L.header_targetid = "TargetID Settings"
-L.header_shop_settings = "Equipment Shop Settings"
-L.header_shop_layout = "Item List Layout"
-L.header_shop_marker = "Item Marker Settings"
-L.header_crosshair_settings = "Crosshair Settings"
-L.header_damage_indicator = "Damage Indicator Settings"
-L.header_performance_settings = "Performance Settings"
-L.header_interface_settings = "Interface Settings"
-L.header_gameplay_settings = "Gameplay Settings"
-L.header_roleselection = "Select Avoiding Roles"
-L.header_hud_administration = "Select Default and Forced HUDs"
-L.header_hud_enabled = "Enable/Disable HUDs"
+L.header_bindings_ttt2 = "Прив'язки TTT2"
+L.header_bindings_other = "Інші прив'язки"
+L.header_language = "Налаштування мови"
+L.header_global_color = "Вибрати глобальний колір"
+L.header_hud_select = "Вибрати HUD"
+L.header_hud_customize = "Налаштувати HUD"
+L.header_vskin_select = "Вибрати та налаштувати VSkin"
+L.header_targetid = "Налаштування TargetID"
+L.header_shop_settings = "Налаштування магазину обладнання"
+L.header_shop_layout = "Макет списку предметів"
+L.header_shop_marker = "Налаштування маркера предметів"
+L.header_crosshair_settings = "Налаштування прицілу"
+L.header_damage_indicator = "Налаштування індикатора пошкоджень"
+L.header_performance_settings = "Налаштування продуктивності"
+L.header_interface_settings = "Налаштування інтерфейсу"
+L.header_gameplay_settings = "Налаштування геймплею"
+L.header_roleselection = "Вибір ролей для уникнення"
+L.header_hud_administration = "Вибрати стандартний та примусовий HUD"
+L.header_hud_enabled = "Увімкнути/вимкнути HUD"
 
 L.button_menu_back = "Назад"
 L.button_none = "Немає"
