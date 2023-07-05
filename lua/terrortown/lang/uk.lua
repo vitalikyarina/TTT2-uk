@@ -91,8 +91,8 @@ L.equip_carry_slot = "У вас є це зброя у слоті {slot}."
 L.equip_carry_minplayers = "Недостатньо гравців для придбання цієї зброї."
 
 L.equip_help_stock = "Деяке обладнання можна купити тільки 1 раз за раунд."
-L.equip_stock_deny = "Цього товару більше немає в наявності."
-L.equip_stock_ok = "Цей товар є в наявності."
+L.equip_stock_deny = "Цього предмету більше немає в наявності."
+L.equip_stock_ok = "Цей предмет є в наявності."
 
 L.equip_custom = "Custom item added by this server."
 
