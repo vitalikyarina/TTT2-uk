@@ -81,7 +81,7 @@ L.equip_title = "Обладнання"
 L.equip_tabtitle = "Купування обладнання"
 
 L.equip_status = "Статус замовлення"
-L.equip_cost = "Залишилост {num} кредит(и/ів)."
+L.equip_cost = "Залишилось {num} кредит(и/ів)."
 L.equip_help_cost = "Будь яке обладнання вартує 1 кредит."
 
 L.equip_help_carry = "Ви можете купити тільки те обладнання для який у вас є місце."
@@ -1827,13 +1827,13 @@ L.label_crowbar_unlocks = "Primary attack can be used as interaction (i.e. unloc
 L.label_crowbar_pushforce = "Crowbar push force"
 
 -- 2022-07-02
-L.header_playersettings_falldmg = "Fall Damage Settings"
+L.header_playersettings_falldmg = "Налаштування пошкодження від падіння"
 
-L.label_falldmg_enable = "Enable fall damage"
-L.label_falldmg_min_velocity = "Minimum velocity threshold for fall damage to occur"
-L.label_falldmg_exponent = "Exponent to increase fall damage in relation to velocity"
+L.label_falldmg_enable = "Увімкнути пошкодження від падіння"
+L.label_falldmg_min_velocity = "Мінімальний поріг швидкості для пошкодження при падінні"
+L.label_falldmg_exponent = "Експонента для збільшення шкоди від падіння по відношенню до швидкості"
 
 L.help_falldmg_exponent = [[
-This value modifies how exponentially fall damage is increased with the speed the player hits the ground at.
+Це значення змінює експоненціальне збільшення шкоди від падіння зі швидкістю, з якою гравець падає на землю.
 
-Take care when altering this value. Setting it too high can make even the smallest falls lethal, while setting it too low will allow players to fall from extreme heights and suffer little to no damage.]]
+Будьте обережні, змінюючи це значення. Занадто високе значення може призвести до смертельних наслідків навіть при найменших падіннях, а занизьке значення дозволить гравцям впасти з надзвичайної висоти й не зазнати жодних пошкоджень..]]
