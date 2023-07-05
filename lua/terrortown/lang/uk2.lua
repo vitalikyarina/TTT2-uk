@@ -1,6 +1,5 @@
 -- Russian language strings
 
-L.equip_help_stock = "Некоторые предметы можно купить только один раз за раунд."
 L.equip_stock_deny = "Этого предмета нет в наличии."
 L.equip_stock_ok = "Этот предмет есть в наличии."
 
