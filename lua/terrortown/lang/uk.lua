@@ -1153,79 +1153,73 @@ L.header_roleselection = "Select Avoiding Roles"
 L.header_hud_administration = "Select Default and Forced HUDs"
 L.header_hud_enabled = "Enable/Disable HUDs"
 
-L.button_menu_back = "Back"
-L.button_none = "None"
-L.button_press_key = "Press a key"
-L.button_save = "Save"
-L.button_reset = "Reset"
-L.button_close = "Close"
-L.button_hud_editor = "HUD Editor"
+L.button_menu_back = "Назад"
+L.button_none = "Немає"
+L.button_press_key = "Натисніть клавішу"
+L.button_save = "Зберегти"
+L.button_reset = "Скинути"
+L.button_close = "Закрити"
+L.button_hud_editor = "Редактор HUD"
 
--- 2020-04-20
-L.item_speedrun = "Speedrun"
-L.item_speedrun_desc = [[Makes you 50% faster!]]
-L.item_no_explosion_damage = "No Explosion Damage"
-L.item_no_explosion_damage_desc = [[Makes you immune to explosion damage.]]
-L.item_no_fall_damage = "No Fall Damage"
-L.item_no_fall_damage_desc = [[Makes you immune to fall damage.]]
-L.item_no_fire_damage = "No Fire Damage"
-L.item_no_fire_damage_desc = [[Makes you immune to fire damage.]]
-L.item_no_hazard_damage = "No Hazard Damage"
-L.item_no_hazard_damage_desc = [[Makes you immune to hazard damage such as poison, radiation and acid.]]
-L.item_no_energy_damage = "No Energy Damage"
-L.item_no_energy_damage_desc = [[Makes you immune to energy damage such as lasers, plasma and lightning.]]
-L.item_no_prop_damage = "No Prop Damage"
-L.item_no_prop_damage_desc = [[Makes you immune to prop damage.]]
-L.item_no_drown_damage = "No Drowning Damage"
-L.item_no_drown_damage_desc = [[Makes you immune to drowning damage.]]
+L.item_speedrun = "Швидкісний біг"
+L.item_speedrun_desc = [[Зробить вас на 50% швидшим!]]
+L.item_no_explosion_damage = "Імунітет до вибухів"
+L.item_no_explosion_damage_desc = [[Зробить вас імунним до пошкоджень від вибухів.]]
+L.item_no_fall_damage = "Імунітет до падінь"
+L.item_no_fall_damage_desc = [[Зробить вас імунним до пошкоджень від падінь.]]
+L.item_no_fire_damage = "Імунітет до вогню"
+L.item_no_fire_damage_desc = [[Зробить вас імунним до пошкоджень від вогню.]]
+L.item_no_hazard_damage = "Імунітет до небезпечних факторів"
+L.item_no_hazard_damage_desc = [[Зробить вас імунним до пошкоджень від небезпечних факторів, таких як отрута, радіація та кислота.]]
+L.item_no_energy_damage = "Імунітет до енергії"
+L.item_no_energy_damage_desc = [[Зробить вас імунним до пошкоджень від енергії, такої як лазери, плазма та блискавки.]]
+L.item_no_prop_damage = "Імунітет до пошкоджень від об'єктів"
+L.item_no_prop_damage_desc = [[Зробить вас імунним до пошкоджень від об'єктів.]]
+L.item_no_drown_damage = "Імунітет до утоплення"
+L.item_no_drown_damage_desc = [[Зробить вас імунним до пошкоджень від утоплення.]]
 
--- 2020-04-21
-L.dna_tid_possible = "Scan possible."
-L.dna_tid_impossible = "No scan possible."
-L.dna_screen_ready = "No DNA"
-L.dna_screen_match = "Match"
+L.dna_tid_possible = "Можливе сканування."
+L.dna_tid_impossible = "Сканування неможливе."
+L.dna_screen_ready = "ДНК відсутня"
+L.dna_screen_match = "Збіг"
 
 -- 2020-04-30
-L.message_revival_canceled = "Revival canceled."
-L.message_revival_failed = "Revival failed."
-L.message_revival_failed_missing_body = "You have not been revived because your corpse no longer exists."
-L.hud_revival_title = "Time left until revival:"
-L.hud_revival_time = "{time}s"
+L.message_revival_canceled = "Відновлення скасовано."
+L.message_revival_failed = "Відновлення не вдалося."
+L.message_revival_failed_missing_body = "Вас не відновлено, оскільки вашого тіла вже не існує."
+L.hud_revival_title = "Час до відновлення:"
+L.hud_revival_time = "{time} с"
 
--- 2020-05-03
-L.door_destructible = "This door is destructible ({health}HP)."
+L.door_destructible = "Ця дверь може бути знищена ({health}HP)."
 
--- 2020-05-28
-L.confirm_detective_only = "Only detectives can confirm bodies."
-L.inspect_detective_only = "Only detectives can search bodies."
-L.corpse_hint_no_inspect = "Only detectives can search this body."
-L.corpse_hint_inspect_only = "Press [{usekey}] to search. Only detectives can confirm the body."
-L.corpse_hint_inspect_only_credits = "Press [{usekey}] to receive credits. Only detectives can search this body."
+L.confirm_detective_only = "Підтверджувати тіла можуть тільки детективи."
+L.inspect_detective_only = "Оглядати тіла можуть тільки детективи."
+L.corpse_hint_no_inspect = "Оглядати це тіло можуть тільки детективи."
+L.corpse_hint_inspect_only = "Натисніть [{usekey}], щоб оглянути. Підтверджувати тіло можуть тільки детективи."
+L.corpse_hint_inspect_only_credits = "Натисніть [{usekey}], щоб отримати кредити. Оглядати це тіло можуть тільки детективи."
 
--- 2020-06-04
-L.label_bind_disguiser = "Toggle disguiser"
+L.label_bind_disguiser = "Переключити маскування"
 
--- 2020-06-24
-L.dna_help_primary = "Collect a DNA sample"
-L.dna_help_secondary = "Switch the DNA slot"
-L.dna_help_reload = "Delete a sample"
+L.dna_help_primary = "Зібрати зразок ДНК"
+L.dna_help_secondary = "Змінити слот ДНК"
+L.dna_help_reload = "Видалити зразок ДНК"
 
-L.binoc_help_pri = "Search a body."
-L.binoc_help_sec = "Change zoom level."
+L.binoc_help_pri = "Оглянути тіло."
+L.binoc_help_sec = "Змінити рівень збільшення."
 
-L.vis_help_pri = "Drop the activated device."
+L.vis_help_pri = "Прибрати активований пристрій."
 
-L.decoy_help_pri = "Plant the Decoy."
+L.decoy_help_pri = "Поставити манекен."
 
-L.pickup_error_spec = "You cannot pick this up as a spectator."
-L.pickup_error_owns = "You cannot pick this up because you already have this weapon."
-L.pickup_error_noslot = "You cannot pick this up because you have no free slot available."
+L.pickup_error_spec = "Ви не можете підняти це як спостерігач."
+L.pickup_error_owns = "Ви не можете підняти це, оскільки вже маєте цю зброю."
+L.pickup_error_noslot = "Ви не можете підняти це, оскільки у вас немає вільного слоту."
 
-L.lang_server_default = "Server Default"
+L.lang_server_default = "Сервер за замовчуванням"
 L.help_lang_info = [[
-This translation is {coverage}% complete with the english language taken as a default reference.
+Цей переклад заповнений на {coverage}% з англійською мовою як вихідним джерелом.
 
-Keep in mind that these translations are made by the community. Feel free to contribute if something is missing or incorrect.]]
+Зверніть увагу, що ці переклади створені спільнотою. З нетерпінням чекаємо вашої участі, якщо щось відсутнє або неправильне.]]
 
 -- 2021-04-13
 L.title_score_info = "Інформація про кінець раунду"
@@ -1356,7 +1350,7 @@ L.shopeditor_desc_random_shops = [[Випадкові магазини нада�
 Командні магазини змушують усіх гравців в одній команді мати один і той самий набір, а не індивідуальні.
 Перебудова дозволяє отримати новий випадковий набір екіпіровки за кредити.]]
 L.shopeditor_name_random_shop_items = "Кількість випадкової екіпіровки"
-L.shopeditor_desc_random_shop_items = "Це включає екіпіровку, яка позначена як "Не випадкова". Тому оберіть достатньо велике число, щоб отримати іншу екіпіровку."
+L.shopeditor_desc_random_shop_items = "Це включає екіпіровку, яка позначена як 'Не випадкова'. Тому оберіть достатньо велике число, щоб отримати іншу екіпіровку."
 L.shopeditor_name_random_team_shops = "Увімкнути командні магазини"
 L.shopeditor_name_random_shop_reroll = "Увімкнути можливість перебудови магазину"
 L.shopeditor_name_random_shop_reroll_cost = "Вартість перебудови"
