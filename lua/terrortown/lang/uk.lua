@@ -1412,392 +1412,391 @@ L.xfer_team_indicator = "Team"
 L.searchbar_default_placeholder = "Search in list..."
 
 -- 2021-07-11
-L.spec_about_to_revive = "Spectating is limited during revival period."
+L.spec_about_to_revive = "Спостереження обмежені під час періоду відновлення."
 
--- 2021-09-01
-L.spawneditor_name = "Spawn Editor Tool"
-L.spawneditor_desc = "Used to place weapon, ammo and player spawns in the world. Can only be used by super admin."
+L.spawneditor_name = "Інструмент редактора появ"
+L.spawneditor_desc = "Використовується для розміщення появ зброї, боєприпасів та гравців у світі. Може використовуватись лише суперадміністратором."
 
-L.spawneditor_place = "Place spawn"
-L.spawneditor_remove = "Remove spawn"
-L.spawneditor_change = "Change spawn type (hold [SHIFT] to reverse)"
-L.spawneditor_ammo_edit = "Hold to edit ammo auto spawn on weapon spawns"
+L.spawneditor_place = "Розмістити появу"
+L.spawneditor_remove = "Видалити появу"
+L.spawneditor_change = "Змінити тип появи (натисніть [SHIFT], щоб зворотити)"
+L.spawneditor_ammo_edit = "Утримуйте, щоб редагувати автоматичну появу боєприпасів на появах зброї"
 
-L.spawn_weapon_random = "Random Weapon Spawn"
-L.spawn_weapon_melee = "Melee Weapon Spawn"
-L.spawn_weapon_nade = "Grenade Weapon Spawn"
-L.spawn_weapon_shotgun = "Shotgun Weapon Spawn"
-L.spawn_weapon_heavy = "Heavy Weapon Spawn"
-L.spawn_weapon_sniper = "Sniper Weapon Spawn"
-L.spawn_weapon_pistol = "Pistol Weapon Spawn"
-L.spawn_weapon_special = "Special Weapon Spawn"
-L.spawn_ammo_random = "Random ammo spawn"
-L.spawn_ammo_deagle = "Deagle ammo spawn"
-L.spawn_ammo_pistol = "Pistol ammo spawn"
-L.spawn_ammo_mac10 = "Mac10 ammo spawn"
-L.spawn_ammo_rifle = "Rifle ammo spawn"
-L.spawn_ammo_shotgun = "Shotgun ammo spawn"
-L.spawn_player_random = "Random player spawn"
+L.spawn_weapon_random = "Випадкова поява зброї"
+L.spawn_weapon_melee = "Поява холодної зброї"
+L.spawn_weapon_nade = "Поява гранатної зброї"
+L.spawn_weapon_shotgun = "Поява дробовика"
+L.spawn_weapon_heavy = "Поява важкої зброї"
+L.spawn_weapon_sniper = "Поява снайперської зброї"
+L.spawn_weapon_pistol = "Поява пістолетів"
+L.spawn_weapon_special = "Поява спеціальної зброї"
+L.spawn_ammo_random = "Випадкова поява боєприпасів"
+L.spawn_ammo_deagle = "Поява боєприпасів для Deagle"
+L.spawn_ammo_pistol = "Поява боєприпасів для пістолетів"
+L.spawn_ammo_mac10 = "Поява боєприпасів для Mac10"
+L.spawn_ammo_rifle = "Поява боєприпасів для гвинтівок"
+L.spawn_ammo_shotgun = "Поява боєприпасів для дробовиків"
+L.spawn_player_random = "Випадкова поява гравців"
 
-L.spawn_weapon_ammo = " (Ammo: {ammo})"
+L.spawn_weapon_ammo = " (Боєприпаси: {ammo})"
 
-L.spawn_weapon_edit_ammo = "Hold [{walkkey}] and press [{primaryfire} or {secondaryfire}] to increase or decrease the ammo for this weapon spawn"
+L.spawn_weapon_edit_ammo = "Утримуйте [{walkkey}] і натисніть [{primaryfire}] або [{secondaryfire}], щоб збільшити або зменшити кількість боєприпасів для цієї появи зброї"
 
-L.spawn_type_weapon = "This is a weapon spawn"
-L.spawn_type_ammo = "This is an ammunition spawn"
-L.spawn_type_player = "This is a player spawn"
+L.spawn_type_weapon = "Це місце з появою зброї"
+L.spawn_type_ammo = "Це місце з появою боєприпасів"
+L.spawn_type_player = "Це місце з появою гравців"
 
-L.spawn_remove = "Press [{secondaryfire}] to remove this spawn"
+L.spawn_remove = "Натисніть [{secondaryfire}], щоб видалити цю появу"
 
-L.submenu_administration_entspawn_title = "Spawn Editor"
-L.header_entspawn_settings = "Spawn Editor Settings"
-L.button_start_entspawn_edit = "Start Spawn Edit"
-L.button_delete_all_spawns = "Delete all Spawns"
+L.submenu_administration_entspawn_title = "Редактор появ"
+L.header_entspawn_settings = "Налаштування редактора появ"
+L.button_start_entspawn_edit = "Почати редагування появ"
+L.button_delete_all_spawns = "Видалити всі появи"
 
-L.label_dynamic_spawns_enable = "Enable dynamic spawns for this map"
-L.label_dynamic_spawns_global_enable = "Enable custom spawns for all maps"
+L.label_dynamic_spawns_enable = "Активувати динамічні появи для цієї карти"
+L.label_dynamic_spawns_global_enable = "Активувати власні появи для всіх карт"
 
-L.header_equipment_weapon_spawn_setup = "Weapon Spawn Settings"
+L.header_equipment_weapon_spawn_setup = "Налаштування появ зброї"
 
 L.help_spawn_editor_info = [[
-The spawn editor is used to place, remove and edit spawns in the world. These spawns are for weapons, ammunition and players.
+Редактор появ використовується для розміщення, видалення та редагування появ у світі. Ці появи призначені для зброї, боєприпасів та гравців.
 
-These spawns are saved in files located in 'data/ttt/weaponspawnscripts/'. They can be deleted for a hard reset. The initial spawn files are created from spawns found on the map and in the original TTT weapon spawn scripts. Pressing the reset button always reverts to this state.
+Ці появи зберігаються в файлах, розташованих в 'data/ttt/weaponspawnscripts/'. Їх можна видалити для повного скидання. Початкові файли появів створюються з появ, знайдених на карті та в початкових скриптах появів зброї TTT. Натискання кнопки скидання завжди повертає стан до цього початкового стану.
 
-It should be noted that this spawn system uses dynamic spawns. This is most interesting for weapons because it no longer defines a specific weapon, but a type of weapons. For example instead of a TTT shotgun spawn, there is now a general shotgun spawn where any weapon defined as shotgun can spawn. The spawn type for each weapon can be set in the equipment editor. This makes it possible for any weapon to spawn on the map, or to disable certain default weapons.
+Слід зауважити, що ця система появ використовує динамічні появи. Це особливо цікаво для зброї, оскільки вона більше не визначає конкретну зброю, а тип зброї. Наприклад, замість появи дробовика TTT тепер є загальна поява дробовиків, де будь-яка зброя, визначена як дробовик, може з'явитися. Тип появи для кожної зброї можна встановити в редакторі обладнання. Це дає можливість будь-якій зброї з'являтися на карті або вимкнути певні типові зброї.
 
-Keep in mind that many changes only take effect after a new round has started.]]
-L.help_spawn_editor_enable = "On some maps it might be advised to use the original spawns found on the map without replacing them with the dynamic system. Disabling this checkbox only disables it for the currently active map. The dynamic system will still be used for every other map."
-L.help_spawn_editor_hint = "Hint: To leave the spawn editor, reopen the gamemode menu."
+Пам'ятайте, що багато змін набувають чинності лише після початку нового раунду.]]
+L.help_spawn_editor_enable = "На деяких картах може бути розумно використовувати початкові появи, знайдені на карті, без заміни їх динамічною системою. Вимкнення цього прапорця вимикає його лише для поточної активної карти. Для всіх інших карт все ще використовуватиметься динамічна система."
+L.help_spawn_editor_hint = "Підказка: Щоб вийти з редактора появ, знову відкрийте меню грального режиму."
 L.help_spawn_editor_spawn_amount = [[
-There currently are {weapon} weapon spawns, {ammo} ammunition spawns and {player} player spawns on this map. Click 'start spawn edit' to change this amount.
+На даний момент на цій карті є {weapon} місць зі зброєю, {ammo} місць з боєприпасами та {player} місць з появи гравців. Клацніть 'почати редагування розташування' для зміни цієї кількості.
 
-{weaponrandom}x Random weapon spawn
-{weaponmelee}x Melee weapon spawn
-{weaponnade}x Grenade weapon spawn
-{weaponshotgun}x Shotgun weapon spawn
-{weaponheavy}x Heavy weapon spawn
-{weaponsniper}x Sniper weapon spawn
-{weaponpistol}x Pistol weapon spawn
-{weaponspecial}x Special weapon spawn
+{weaponrandom}x Випадкове розташування зброї
+{weaponmelee}x Розташування холодної зброї
+{weaponnade}x Розташування гранат
+{weaponshotgun}x Розташування дробовиків
+{weaponheavy}x Розташування важкої зброї
+{weaponsniper}x Розташування снайперської зброї
+{weaponpistol}x Розташування пістолетів
+{weaponspecial}x Розташування спеціальної зброї
 
-{ammorandom}x Random ammo spawn
-{ammodeagle}x Deagle ammo spawn
-{ammopistol}x Pistol ammo spawn
-{ammomac10}x Mac10 ammo spawn
-{ammorifle}x Rifle ammo spawn
-{ammoshotgun}x Shotgun ammo spawn
+{ammorandom}x Випадкове розташування боєприпасів
+{ammodeagle}x Розташування боєприпасів для Deagle
+{ammopistol}x Розташування боєприпасів для пістолетів
+{ammomac10}x Розташування боєприпасів для Mac10
+{ammorifle}x Розташування боєприпасів для гвинтівок
+{ammoshotgun}x Розташування боєприпасів для дробовиків
 
-{playerrandom}x Random player spawn]]
+{playerrandom}x Випадкове розташування гравців]]
 
-L.equipmenteditor_name_auto_spawnable = "Equipment spawns randomly in world"
-L.equipmenteditor_name_spawn_type = "Select spawn type"
+L.equipmenteditor_name_auto_spawnable = "Обладнання випадково появляється в світі"
+L.equipmenteditor_name_spawn_type = "Вибрати тип розташування"
 L.equipmenteditor_desc_auto_spawnable = [[
-The TTT2 spawn system allows every weapon to spawn in the world. By default only weapons marked as 'AutoSpawnable' by the creator will spawn in the world, however these settings can be changed from within this menu.
+Система розташування TTT2 дозволяє розміщувати будь-яку зброю у світі. За замовчуванням у світі з'являються лише зброя, які позначені як 'AutoSpawnable' автором, але ці налаштування можна змінити з цього меню.
 
-Most of the equipment is set to 'special weapon spawns' by default. This means that equipment only spawns on random weapon spawns. However it is possible to place special weapon spawns in the world or change the spawn type here to use other existing spawn types.]]
+Більшість обладнання за замовчуванням призначено для 'розташування спеціальної зброї'. Це означає, що обладнання з'являється лише на випадкових місцях зі зброєю. Однак можливо розмістити спеціальні розташування зброї у світі або змінити тип розташування тут для використання інших існуючих типів розташування.]]
 
-L.pickup_error_inv_cached = "You cannot pick this up right now because your inventory is cached."
+L.pickup_error_inv_cached = "Наразі ви не можете взяти це, оскільки ваш інвентар кешується."
 
 -- 2021-09-02
-L.submenu_administration_playermodels_title = "Player Models"
-L.header_playermodels_general = "General Player Model Settings"
-L.header_playermodels_selection = "Select Player Model Pool"
+L.submenu_administration_playermodels_title = "Моделі гравців"
+L.header_playermodels_general = "Загальні налаштування моделей гравців"
+L.header_playermodels_selection = "Вибір пулу моделей гравців"
 
-L.label_enforce_playermodel = "Enforce role player model"
-L.label_use_custom_models = "Use a random selected player model"
-L.label_prefer_map_models = "Prefer map specific models over default models"
-L.label_select_model_per_round = "Select a new random model each round (only on mapchange if disabled)"
+L.label_enforce_playermodel = "Обов'язкова модель гравця для ролі"
+L.label_use_custom_models = "Використовувати випадково вибрану модель гравця"
+L.label_prefer_map_models = "Надавати перевагу спеціальним моделям карти над типовими моделями"
+L.label_select_model_per_round = "Вибрати нову випадкову модель кожного раунду (лише при зміні карти, якщо відключено)"
 
 L.help_prefer_map_models = [[
-Some maps define their own player models. By default these models have a higher priority then the models that are automatically assigned. By disabling this setting, map specific models are disabled.
+Деякі карти визначають свої власні моделі гравців. За замовчуванням ці моделі мають вищий пріоритет, ніж автоматично призначені моделі. Вимкнення цього параметра виключає використання спеціальних моделей карти.
 
-Role specific models always have a higher priority and are unaffected by this setting.]]
+Моделі, специфічні для ролей, завжди мають вищий пріоритет і не підпадають під цей параметр.]]
 L.help_enforce_playermodel = [[
-Some roles have custom player models. This can be disabled which can be relevant for compatibility with some player model selectors.
-Random default models can still be selected, if this setting is disabled.]]
-L.help_use_custom_models = [[
-By default only the CSS Phoenix player model is assigned to all players. By enabling this option however it is possible to select a player model pool. With this setting enabled each player will still be assigned the same player model, however it is a random model from the defined model pool.
+Деякі ролі мають спеціальні моделі гравців. Це можна вимкнути, що може бути корисним для сумісності з деякими селекторами моделей гравців.
+За відключення цього параметра все ще можна вибрати випадкові типові моделі.
 
-This selection of models can be extended by installing more player models.]]
+За цим параметром випадкові типові моделі все ще можна вибрати, якщо цей параметр вимкнено.]]
+L.help_use_custom_models = [[
+За замовчуванням усім гравцям призначається модель гравця Phoenix з CSS. Але включивши цю опцію можна вибрати пул моделей гравців. При включеній опції кожному гравцеві все ще буде призначатися одна і та ж модель гравця, але це буде випадкова модель з визначеного пулу моделей.
+
+Цей вибір моделей можна розширити, встановивши більше моделей гравців.]]
 
 -- 2021-10-06
-L.menu_server_addons_title = "Server Addons"
-L.menu_server_addons_description = "Serverwide admin only settings for addons."
+L.menu_server_addons_title = "Додатки сервера"
+L.menu_server_addons_description = "Налаштування лише для адміністратора, що застосовуються до всього сервера."
 
-L.tooltip_finish_score_penalty_alive_teammates = "Alive teammates penalty: {score}"
-L.finish_score_penalty_alive_teammates = "Alive teammates penalty:"
-L.tooltip_kill_score_suicide = "Suicide: {score}"
-L.kill_score_suicide = "Suicide:"
-L.tooltip_kill_score_team = "Team kill: {score}"
-L.kill_score_team = "Team kill:"
+L.tooltip_finish_score_penalty_alive_teammates = "Штраф за живих союзників: {score}"
+L.finish_score_penalty_alive_teammates = "Штраф за живих союзників:"
+L.tooltip_kill_score_suicide = "Суїцид: {score}"
+L.kill_score_suicide = "Суїцид:"
+L.tooltip_kill_score_team = "Вбивство команди: {score}"
+L.kill_score_team = "Вбивство команди:"
 
 -- 2021-10-09
 L.help_models_select = [[
-Left click on the models to add them to the player model pool. Left click again to remove them. Right clicking toggles between enabled and disabled detective hats for the focused model.
+Лівий клік на моделі додає їх до пула моделей гравця. Лівий клік знову видаляє їх. Правий клік перемикається між увімкненими та вимкненими детективними капелюхами для обраної моделі.
 
-The small indicator in the top left shows if the player model has a headshot hitbox. The icon below shows if this model is applicable for a detective hat.]]
+Маленький індикатор у верхньому лівому куті показує, чи є у моделі гравця гітбокс для голови. Значок нижче показує, чи можна використовувати для цієї моделі детективний капелюх.]]
 
-L.menu_roles_title = "Role Settings"
-L.menu_roles_description = "Set up the spawning, equipment credits and more."
+L.menu_roles_title = "Налаштування ролей"
+L.menu_roles_description = "Встановіть налаштування появи, кредити обладнання та багато іншого."
 
-L.submenu_administration_roles_general_title = "General Role Settings"
+L.submenu_administration_roles_general_title = "Загальні налаштування ролей"
 
-L.header_roles_info = "Role Information"
-L.header_roles_selection = "Role Selection Parameters"
-L.header_roles_tbuttons = "Role Traitor Buttons"
-L.header_roles_credits = "Role Equipment Credits"
-L.header_roles_additional = "Additonal Role Settings"
-L.header_roles_reward_credits = "Reward Equipment Credits"
+L.header_roles_info = "Інформація про роль"
+L.header_roles_selection = "Параметри вибору ролей"
+L.header_roles_tbuttons = "Кнопки зрадника ролі"
+L.header_roles_credits = "Кредити обладнання ролей"
+L.header_roles_additional = "Додаткові налаштування ролей"
+L.header_roles_reward_credits = "Нагорода кредитами обладнання"
 
-L.help_roles_default_team = "Default team: {team}"
-L.help_roles_unselectable = "This role is not selectable. This means it is not considered in the role selection. Most of the times this means that this is a role that is manually applied during the round through an event like a revival, a sidekick deagle or something similar."
-L.help_roles_selectable = "This role is selectable. This means if all criteria is met, this role is considered in the role selection process."
-L.help_roles_credits = "Equipment credits are used to buy equipment in the shop. It mostly makes sense to give only those roles that have access to the shop credits. However since it is possible to loot credits from corpses, it could also be an idea to give starting credits to roles as a reward for their killer."
-L.help_roles_selection_short = "The role distribution per player defines the percentage of players that are assigned this role. If for example the value is set to '0.2' every fifth player receives this role."
+L.help_roles_default_team = "Команда за замовчуванням: {team}"
+L.help_roles_unselectable = "Цю роль не можна вибрати. Це означає, що вона не враховується при виборі ролей. В більшості випадків це означає, що це роль, яка застосовується вручну під час раунду через подію, таку як відродження, крадіжка ролі за допомогою зброї або щось подібне."
+L.help_roles_selectable = "Цю роль можна вибрати. Це означає, що якщо виконуються всі критерії, ця роль бере участь у процесі вибору ролей."
+L.help_roles_credits = "Кредити для обладнання використовуються для покупки обладнання в магазині. Зазвичай це має сенс давати тільки тим ролям, які мають доступ до магазину кредитів. Однак, оскільки можливо отримувати кредити з трупів, також можливо дати початкові кредити ролям як нагороду за їхнього вбивцю."
+L.help_roles_selection_short = "Розподіл ролей на кожного гравця визначає відсоток гравців, яким призначається ця роль. Наприклад, якщо значення встановлено на '0.2', кожному п'ятому гравцеві буде призначена ця роль."
 L.help_roles_selection = [[
-The role distribution per player defines the percentage of players that are assigned this role. If for example the value is set to '0.2' every fifth player receives this role. This also means that at least 5 players are needed for this role to be selected at all.
-Keep in mind that all of this only applies if the role is considered for selection.
+Розподіл ролей на кожного гравця визначає відсоток гравців, яким призначається ця роль. Наприклад, якщо значення встановлено на '0.2', кожному п'ятому гравцеві буде призначена ця роль. Це також означає, що для вибору цієї ролі потрібно принаймні 5 гравців.
+Майте на увазі, що все це застосовується лише у випадку, якщо роль вважається для вибору.
 
-The aforementioned role distribution has a special integration with the lower limit of players. If the role is considered for selection and the minimum value is below the value given by the distribution factor, but the amount of players is equal or greater than the lower limit, a single player can still receive this role. The distribution setting then holds true again for the second player to receive this role.]]
-L.help_roles_award_info = "Some roles (if enabled in their credits settings) receive equipment credits if a certain percentage of adversaries has died. Those values can be tweaked here."
-L.help_roles_award_pct = "When this percentage of other players are dead, players are awarded more credits."
-L.help_roles_award_repeat = "Whether the credit award is handed out multiple times. If for example you set the percentage to '0.25', and enable this, players will be awarded credits at '25%' killed, '50%' killed, and '75%' killed."
-L.help_roles_advanced_warning = "WARNING: These are advanced settings that can completely mess up your role selection. When in doubt keep all values at '0'. This value means that no limits are applied and the role selection is trying to assign as many roles as possible."
+Вищезазначений розподіл ролей має особливу інтеграцію з нижнім обмеженням гравців. Якщо роль вважається для вибору і мінімальне значення нижче від значення, заданого фактором розподілу, але кількість гравців дорівнює або більша за нижню межу, один гравець все одно може отримати цю роль. Потім розподільна настройка вірно застосовується для другого гравця, який отримає цю роль.]]
+L.help_roles_award_info = "Деякі ролі (якщо це включено у налаштуваннях їхніх кредитів) отримують кредити за обладнання, якщо відбувається вбивство певного відсотка противників. Значення цих налаштувань можна настроїти тут."
+L.help_roles_award_pct = "Якщо цей відсоток інших гравців мертвий, гравцям надаються більше кредитів."
+L.help_roles_award_repeat = "Чи нагороджувати кредити кілька разів. Наприклад, якщо ви встановите відсоток на '0.25' і активуєте це, гравцям будуть надані кредити при убитті '25%' гравців, '50%' гравців та '75%' гравців."
+L.help_roles_advanced_warning = "УВАГА: Це розширені налаштування, які можуть повністю змінити розподіл ролей. У разі сумнівів залиште всі значення на рівні '0'. Це означає, що не застосовуються жодні обмеження, і розподіл ролей намагається призначити якомога більше ролей."
+
 L.help_roles_max_roles = [[
-The roles category contains every role in TTT2. By default there is no limit on how many different roles can be assigned. However here are two different ways to limit them.
+Категорія "ролі" містить кожну роль в TTT2. За замовчуванням не встановлено жодних обмежень на кількість різних ролей, які можуть бути призначені. Однак існує два різні способи обмеження.
 
-1. Limit them by a fixed amount.
-2. Limit them by a percentage.
+1. Обмежити їх за фіксованою кількістю.
+2. Обмежити їх відсотком.
 
-The latter is only used if the fixed amount is '0' and sets an upper limit based on the set percentage of available players.]]
+Останній використовується тільки в разі, якщо фіксована кількість дорівнює '0' і встановлює верхню межу, засновану на встановленому відсотку від загальної кількості гравців.]]
+
 L.help_roles_max_baseroles = [[
-Baseroles are only those role others inherit from. For example the Innocent role is a baserole, while a Pharaoh is a sub role of this role. By default there is no limit on how many different baseroles can be assigned. However here are two different ways to limit them.
+Базові ролі - це лише ті ролі, від яких успадковують інші ролі. Наприклад, роль Невинного є базовою роллю, тоді як Фараон є підпорядкованою роллю цієї базової ролі. За замовчуванням не встановлено жодних обмежень на кількість різних базових ролей, які можуть бути призначені. Однак існує два різні способи обмеження.
 
-1. Limit them by a fixed amount.
-2. Limit them by a percentage.
+1. Обмежити їх за фіксованою кількістю.
+2. Обмежити їх відсотком.
 
-The latter is only used if the fixed amount is '0' and sets an upper limit based on the set percentage of available players.]]
+Останній використовується тільки в разі, якщо фіксована кількість дорівнює '0' і встановлює верхню межу, засновану на встановленому відсотку від загальної кількості гравців.]]
 
-L.label_roles_enabled = "Enable role"
-L.label_roles_min_inno_pct = "Innocent distribution per player"
-L.label_roles_pct = "Role distribution per player"
-L.label_roles_max = "Upper limit of players assigned for this role"
-L.label_roles_random = "Chance this role is selected"
-L.label_roles_min_players = "Lower limit of players to consider selection"
-L.label_roles_tbutton = "Role can use Traitor buttons"
-L.label_roles_credits_starting = "Starting credits"
-L.label_roles_credits_award_pct = "Credit reward percentage"
-L.label_roles_credits_award_size = "Credit reward size"
-L.label_roles_credits_award_repeat = "Credit reward repeat"
-L.label_roles_newroles_enabled = "Enable custom roles"
-L.label_roles_max_roles = "Upper role limit"
-L.label_roles_max_roles_pct = "Upper role limit by percentage"
-L.label_roles_max_baseroles = "Upper baserole limit"
-L.label_roles_max_baseroles_pct = "Upper baserole limit by percentage"
-L.label_detective_hats = "Enable hats for policing roles like the Detective (if player model allows hat)"
+L.label_roles_enabled = "Увімкнути роль"
+L.label_roles_min_inno_pct = "Розподіл Невинних на кожного гравця"
+L.label_roles_pct = "Розподіл ролей на кожного гравця"
+L.label_roles_max = "Верхній ліміт гравців для цієї ролі"
+L.label_roles_random = "Ймовірність вибору цієї ролі"
+L.label_roles_min_players = "Нижній ліміт гравців для вибору ролі"
+L.label_roles_tbutton = "Роль може використовувати кнопки зрадника"
+L.label_roles_credits_starting = "Початкові кредити"
+L.label_roles_credits_award_pct = "Відсоток кредитів за нагороду"
+L.label_roles_credits_award_size = "Розмір кредитної нагороди"
+L.label_roles_credits_award_repeat = "Повторення кредитної нагороди"
+L.label_roles_newroles_enabled = "Увімкнути власні ролі"
+L.label_roles_max_roles = "Верхній ліміт ролей"
+L.label_roles_max_roles_pct = "Верхній ліміт ролей відсотково"
+L.label_roles_max_baseroles = "Верхній ліміт основних ролей"
+L.label_roles_max_baseroles_pct = "Верхній ліміт основних ролей відсотково"
+L.label_detective_hats = "Увімкнути капелюхи для поліцейських ролей, наприклад Детектива (якщо модель гравця дозволяє використання капелюхів)"
 
-L.ttt2_desc_innocent = "An Innocent has no special abilities. They have to find the evil ones among the terrorists and kill them. But they have to be careful not to kill their fellow team mates."
-L.ttt2_desc_traitor = "The Traitor is the adversary of the Innocent. They have an equipment menu with which they are be able to buy special equipment. They have to kill everyone but their team mates."
-L.ttt2_desc_detective = "The Detective is the one whom the Innocents can trust. But who even is an Innocent? The mighty Detective has to find all the evil terrorists. The equipment in their shop may help them with this task."
+L.ttt2_desc_innocent = "Невинний не має особливих здібностей. Вони повинні знайти злочинців серед терористів і вбити їх. Але вони повинні бути обережні, щоб не вбити своїх товаришів по команді."
+L.ttt2_desc_traitor = "Зрадник є супротивником Невинних. Вони мають меню з екіпіруванням, за допомогою якого вони можуть купувати спеціальне обладнання. Вони повинні вбити кожного, крім своїх товаришів по команді."
+L.ttt2_desc_detective = "Детектив - той, на кого Невинні можуть покластися. Але хто ж насправді є Невинним? Могутній Детектив повинен знайти всіх злочинців-терористів. Обладнання в їхньому магазині може допомогти їм у цьому завданні."
 
 -- 2021-10-10
-L.button_reset_models = "Reset Player Models"
+L.button_reset_models = "Скинути моделі гравців"
 
 -- 2021-10-13
-L.help_roles_credits_award_kill = "Another way of gaining credits is by killing high value players with a 'public role' such as a Detective. If the killer's role has this enabled, they gain the below defined amount of credits."
+L.help_roles_credits_award_kill = "Ще один спосіб отримання кредитів - вбивство гравців високої цінності з 'публічною роллю', такою як Детектив. Якщо ця функція увімкнена для ролі вбивці, вона отримує кредити визначеною кількістю нижче."
 L.help_roles_credits_award = [[
-There are two different ways to be awarded credits in base TTT2:
+У базовій версії TTT2 є два різних способи отримання кредитів:
 
-1. If a certain percentage of the enemy team is dead, the whole team is awarded credits.
-2. If a player killed a high value play with a 'public role' such as a Detective, the killer is awarded.
+1. Якщо певний відсоток ворожої команди мертвий, всій команді нараховуються кредити.
+2. Якщо гравець вбиває гравця високої цінності з 'публічною роллю', такою як Детектив, вбивці нараховуються кредити.
 
-Please note that this still can be enabled/disabled for every role even if the whole team is awarded. If for example team Innocent is awarded, but the Innocent role has this disabled, only the Detective will receive their credits.
-The balancing values for this feature can be set in 'Administration' -> 'General Role Settings'.]]
+Зверніть увагу, що це може бути увімкнено або вимкнено для кожної ролі навіть у випадку нарахування кредитів для всієї команди. Наприклад, якщо команда Невинних отримує кредити, але у ролі Невинного ця функція вимкнена, кредити отримуватиме лише Детектив.
+Балансувальні значення для цієї функції можна встановити в 'Адміністрування' -> 'Загальні налаштування ролей'.]]
 L.help_detective_hats = [[
-Policing roles such as the Detective may wear hats to show their authority. They lose them on death or if damaged at the head.
+Поліцейські ролі, такі як Детектив, можуть носити капелюхи, що вказують на їх повноваження. Вони втрачають їх при смерті або якщо отримують пошкодження в голову.
 
-Some player models do not support hats by default. You can change this in 'Administration' -> 'Player Models']]
+Деякі моделі гравців за замовчуванням не підтримують капелюхи. Ви можете змінити це в розділі 'Адміністрування' -> 'Моделі гравців'.]]
 
-L.label_roles_credits_award_kill = "Credit reward amount for kill"
-L.label_roles_credits_dead_award = "Enable credits award for certain percentage of dead enemies"
-L.label_roles_credits_kill_award = "Enable credits award for high value player kill"
-L.label_roles_min_karma = "Lower limit of Karma to consider selection"
+L.label_roles_credits_award_kill = "Кількість кредитів за вбивство"
+L.label_roles_credits_dead_award = "Увімкнути нагороду кредитами за певний відсоток вбитих ворогів"
+L.label_roles_credits_kill_award = "Увімкнути нагороду кредитами за вбивство гравця високої цінності"
+L.label_roles_min_karma = "Нижня межа Карми для розгляду вибору"
 
--- 2021-11-07
-L.submenu_administration_administration_title = "Administration"
-L.submenu_administration_voicechat_title = "Voicechat / Textchat"
-L.submenu_administration_round_setup_title = "Round Setup"
-L.submenu_administration_mapentities_title = "Map Entities"
-L.submenu_administration_inventory_title = "Inventory"
-L.submenu_administration_karma_title = "Karma"
-L.submenu_administration_sprint_title = "Sprinting"
-L.submenu_administration_playersettings_title = "Player Settings"
+L.submenu_administration_administration_title = "Адміністрування"
+L.submenu_administration_voicechat_title = "Голосовий чат / Текстовий чат"
+L.submenu_administration_round_setup_title = "Підготовка раунду"
+L.submenu_administration_mapentities_title = "Елементи мапи"
+L.submenu_administration_inventory_title = "Інвентар"
+L.submenu_administration_karma_title = "Карма"
+L.submenu_administration_sprint_title = "Спринт"
+L.submenu_administration_playersettings_title = "Налаштування гравця"
 
-L.header_roles_special_settings = "Special Role Settings"
-L.header_equipment_additional = "Additional Equipment Settings"
-L.header_administration_general = "General Administrative Settings"
-L.header_administration_logging = "Logging"
-L.header_administration_misc = "Miscellaneous"
-L.header_entspawn_plyspawn = "Player Spawn Settings"
-L.header_voicechat_general = "General Voicechat Settings"
-L.header_voicechat_battery = "Voicechat Battery"
-L.header_voicechat_locational = "Locational Voicechat"
-L.header_playersettings_plyspawn = "Player Spawn Settings"
-L.header_round_setup_prep = "Round: Preparing"
-L.header_round_setup_round = "Round: Active"
-L.header_round_setup_post = "Round: Post"
-L.header_round_setup_map_duration = "Map Session"
-L.header_textchat = "Textchat"
-L.header_round_dead_players = "Dead Player Settings"
-L.header_administration_scoreboard = "Scoreboard Settings"
-L.header_hud_toggleable = "Toggleable HUD Elements"
-L.header_mapentities_prop_possession = "Prop Possession"
-L.header_mapentities_doors = "Doors"
-L.header_karma_tweaking = "Karma Tweaking"
-L.header_karma_kick = "Karma Kick and Ban"
-L.header_karma_logging = "Karma Logging"
-L.header_inventory_gernal = "Inventory Size"
-L.header_inventory_pickup = "Inventory Weapon Pickup"
-L.header_sprint_general = "Sprint Settings"
-L.header_playersettings_armor = "Armor System Settings"
+L.header_roles_special_settings = "Спеціальні налаштування ролей"
+L.header_equipment_additional = "Додаткові налаштування обладнання"
+L.header_administration_general = "Загальні налаштування адміністрування"
+L.header_administration_logging = "Журналювання"
+L.header_administration_misc = "Різне"
+L.header_entspawn_plyspawn = "Налаштування появи гравців"
+L.header_voicechat_general = "Загальні налаштування голосового чату"
+L.header_voicechat_battery = "Батарея голосового чату"
+L.header_voicechat_locational = "Місцевий голосовий чат"
+L.header_playersettings_plyspawn = "Налаштування появи гравців"
+L.header_round_setup_prep = "Раунд: Підготовка"
+L.header_round_setup_round = "Раунд: Активний"
+L.header_round_setup_post = "Раунд: Після"
+L.header_round_setup_map_duration = "Тривалість сесії карти"
+L.header_textchat = "Текстовий чат"
+L.header_round_dead_players = "Налаштування мертвих гравців"
+L.header_administration_scoreboard = "Налаштування табло"
+L.header_hud_toggleable = "Елементи інтерфейсу, які можна переключати"
+L.header_mapentities_prop_possession = "Володіння предметами"
+L.header_mapentities_doors = "Двері"
+L.header_karma_tweaking = "Налагодження карми"
+L.header_karma_kick = "Вилучення та блокування за карму"
+L.header_karma_logging = "Журналювання карми"
+L.header_inventory_gernal = "Розмір інвентаря"
+L.header_inventory_pickup = "Заборона підбору зброї"
+L.header_sprint_general = "Налаштування бігу"
+L.header_playersettings_armor = "Налаштування системи броні"
 
-L.help_killer_dna_range = "When a player is killed by another player a DNA fingerprint is left on their body. The max range convar defines the maximum distance in hammer units for DNA samples to be left. If the killer is further away, then no sample is left at the corpse."
-L.help_killer_dna_basetime = "The basetime in seconds until a DNA sample is decayed. A factor of the squared killer distance is substracted from this basetime."
-L.help_dna_radar = "The TTT2 DNA scanner shows the exact distance and direction of the selected DNA sample if equipped. However, there is also a classic DNA scanner mode that updates the selected sample with an in-world rendering everytime the cooldown has passed."
-L.help_idle = "The idle mode is used to move idle players into a forced spectator mode. To leave this mode again, they have to disable 'enforce spectator mode' in their 'gameplay' settings."
+L.help_killer_dna_range = "Коли гравець вбиває іншого гравця, на його тілі залишається ДНК відбиток. Максимальна відстань (в одиницях Hammer) визначає максимальну відстань, на якій будуть залишатися зразки ДНК. Якщо вбивця знаходиться далі, зразок ДНК не залишається на трупі."
+L.help_killer_dna_basetime = "Базовий час в секундах, протягом якого зразок ДНК розкладається. З цього базового часу віднімається множник, обчислений за квадратом відстані до вбивці."
+L.help_dna_radar = "TTT2 DNA сканер показує точну відстань та напрямок обраного зразка ДНК, якщо він є в руках. Однак, також існує класичний режим DNA сканера, який оновлює обраний зразок з візуальним відображенням у світі кожного разу, коли пройшов час відновлення."
+L.help_idle = "Режим бездіяльності використовується для переміщення бездіяльних гравців у примусовий режим спостерігача. Щоб покинути цей режим, гравцям потрібно вимкнути 'запобігати режиму спостерігача' в налаштуваннях 'геймплей'."
 L.help_namechange_kick = [[
-If a player changes their name during a round, this can be abused to evade being killed. Therefore it is prohibited to change the nickname during an active round.
+Якщо гравець змінює своє ім'я протягом раунду, це може бути зловживано для уникнення смерті. Тому заборонено змінювати псевдонім під час активного раунду.
 
-If the bantime is greater than 0, the player will be unable to reconnect to the server until that time has passed.]]
-L.help_damage_log = "Each time a player is damaged, a damage log entry is added to the console if enabled. This can also be stored to disk after a round has ended. The file is located at 'data/terrortown/logs/'"
+Якщо значення 'bantime' більше 0, гравець не зможе знову підключитися до сервера, поки не пройде цей час.]]
+L.help_damage_log = "Кожного разу, коли гравцю завдають пошкоджень, в консолі додається запис про пошкодження, якщо він увімкнений. Це також може бути збережено на диск після завершення раунду. Файл знаходиться в 'data/terrortown/logs/'."
 L.help_spawn_waves = [[
-If this variable is set to 0, all players are spawned at once. For servers with huge amounts of players, it can be beneficial to spawn the players in waves. The spawn wave interval is the time between each spawn wave. A spawn wave always spawns as many players as there are valid spawn points.
+Якщо ця змінна встановлена ​​на 0, всі гравці з'являються одразу. Для серверів з великою кількістю гравців може бути корисно спавнити гравців хвилями. Інтервал між хвилями - це час між кожною хвилею появи. Кожна хвиля спавнить стільки гравців, скільки є дійсних точок появи.
 
-Note: Make sure that the preparing time is long enough for the desired amount of spawn waves.]]
+Примітка: Переконайтеся, що час підготовки довгий достатньо для бажаної кількості хвиль появи.]]
 L.help_voicechat_battery = [[
-Voicechatting with enabled voice chat battery reduces this meter. When it's empty the player can't voicechat and has to wait for a few seconds for it to recharge. This can help to prevent excessive voicechat usage.
+Під час використання голосового чату з активованою функцією розряду батареї голосового чату витрачається заряд батареї. Коли вона порожня, гравець не зможе використовувати голосовий чат і мусить зачекати кілька секунд, щоб він зарядився. Це допомагає запобігти зловживанню голосового чату.
 
-Note: 'Tick' refers to a game tick, ie. 1/66th of a second.]]
-L.help_ply_spawn = "Player parameters that are used on player (re-)spawn."
+Примітка: 'Тік' відноситься до грати, тобто 1/66 секунди.]]
+L.help_ply_spawn = "Параметри гравця, що використовуються під час появи гравця (пере-)входу."
 L.help_haste_mode = [[
-Haste mode balances the game by increasing the round time with every dead player. Only roles that see missing in action players can see the real round time. Every other role can only see the haste mode starting time.
+Режим поспіху балансує гру, збільшуючи час раунду з кожним мертвим гравцем. Тільки ролі, які бачать гравців, відсутніх у дії, можуть бачити реальний час раунду. Всі інші ролі бачать лише час початку режиму поспіху.
 
-If haste mode is enabled, the fixed round time is ignored.]]
-L.help_round_limit = "After one of the set limit conditions is met, a mapchange is triggered."
-L.help_armor_balancing = "The following values can be used to balance the armor."
-L.help_item_armor_classic = "If classic armor mode is enabled, only the previous settings matter. Classic armor mode means that a player can only buy armor once in a round and that this armor blocks 30% of the incoming bullet and crowbar damage until they die."
+Якщо включено режим поспіху, фіксований час раунду не враховується.]]
+L.help_round_limit = "Після досягнення одного з установлених обмежень відбувається зміна карти."
+L.help_armor_balancing = "Наступні значення можна використовувати для балансування броні."
+L.help_item_armor_classic = "Якщо включений класичний режим броні, мають значення лише попередні налаштування. Класичний режим броні означає, що гравець може купувати броню лише один раз протягом раунду, і ця броня блокує 30% пошкоджень від кулі та лома, поки гравець не помирає."
 L.help_item_armor_dynamic = [[
-Dynamic armor is the TTT2 approach to make armor more interesting. The amount of armor that can be bought is now unlimited and the armor value stacks. Getting damaged decreases the armor value. The armor value per baught armor item is set in the 'Equipment Settings' of said item.
+Динамічна броня надає гравцям можливість купувати броню з різними рівнями захисту. Гравець може придбати броню більше одного разу в раунд і отримує збронювання залежно від його вибору.
 
-When taking damage, a certain percentage of this damage is converted into armor damage, a different percentage is still applied to the player and the rest vanishes.
-
-If reinforced armor is enabled, the damage applied to the player is decreased by 15% as long as the armor value is above the reinforcement threshold.]]
-L.help_sherlock_mode = "The sherlock mode is the classic TTT mode. If the sherlock mode is disabled, dead bodies can not be confirmed, the scoreboard shows everyone as alive and the spectators can talk to the living players."
+Визначення '1, 0.5, 0' означає, що перша одиниця броні надає 100% захист, друга - 50% захисту, а третя - жодного захисту.]]
+L.help_sherlock_mode = "Режим Шерлока є класичним режимом TTT. Якщо режим Шерлока вимкнений, мертві тіла не можуть бути підтверджені, табло показує всіх як живих, а глядачі можуть спілкуватися з живими гравцями."
 L.help_prop_possession = [[
-Prop possession can be used by spectators to possess props lying in the world and use the slowly recharging 'punch-o-meter' to move said prop around.
+Можливість володіння об'єктами дозволяє глядачам володіти об'єктами, які лежать у світі гри, і використовувати повільно заряджаючийся "пунш-о-метр" для переміщення цих об'єктів.
 
-The maximum value of the 'punch-o-meter' consists of a possession base value, where the kills/deaths difference clamped inbetween two defined limits is added. The meter slowly recharges over time. The set recharge time is the time needed to recharge a single point in the 'punch-o-meter'.]]
-L.help_karma = "Karma is used to reduce random killing. Players start with a certain amount of Karma, and lose it when they damage/kill team mates. The amount they lose is dependent on the Karma of the person they hurt or killed. Lower Karma reduces damage given."
-L.help_karma_strict = "If strict Karma is enabled, the damage penalty increases more quickly as Karma goes down. When it is off, the damage penalty is very low when people stay above 800. Enabling strict mode makes Karma play a larger role in discouraging any unnecessary kills, while disabling it results in a more “loose” game where Karma only hurts players who constantly teamkill."
-L.help_karma_max = "Setting the value of the max Karma above 1000 doesn't give a damage bonus to players with more that 1000 Karma. It can be used as a Karma buffer."
-L.help_karma_ratio = "The ratio of the damage that is used to compute how much of the victim's Karma is subtracted from the attacker's if both are in the same team. If a team kill happens, a further penalty is applied."
-L.help_karma_traitordmg_ratio = "The ratio of the damage that is used to compute how much of the victim's Karma is subtracted from the attacker's if both are in different teams. If a team kill happens, a further bonus is applied."
-L.help_karma_bonus = "There are also two different passive ways to gain Karma during a round. First a round heal is applied to every player. Then a secondary clean bonus is given if no teammates were hurt or killed."
+Максимальне значення "пунш-о-метра" складається з базового значення володіння, до якого додається різниця між вбивствами/смертями, обмежена двома заданими лімітами. "Пунш-о-метр" повільно заряджається з часом. Час перезарядки встановлює час, необхідний для зарядки одного пункту в "пунш-о-метрі".]]
+L.help_karma = "Карма використовується для зменшення випадкового вбивства. Гравці починають з певної кількості карми і втрачають її, коли завдають шкоди/вбивають товаришів по команді. Кількість втраченої карми залежить від карми особи, яку вони поранили або вбили. Нижча карма зменшує нанесене пошкодження."
+L.help_karma_strict = "Якщо ввімкнено строгий режим карми, штраф за пошкодження збільшується швидше при зниженні карми. Коли цей режим вимкнено, штраф за пошкодження дуже низький, коли гравці залишаються вище 800 карми. Увімкнення строгого режиму робить карму важливішою у запобіганні непотрібним вбивствам, тоді як вимкнення режиму призводить до більш "вільної" гри, де карма шкодить лише гравцям, які постійно вбивають свою команду."
+L.help_karma_max = "Встановлення значення максимальної карми понад 1000 не дає бонус пошкодження гравцям з кармою понад 1000. Це може бути використано як буфер карми."
+L.help_karma_ratio = "Співвідношення пошкодження, яке використовується для обчислення віднімання карми жертви від атакуючого, якщо обидва гравці в одній команді. Якщо сталася вбивство в команді, застосовується додатковий штраф."
+L.help_karma_traitordmg_ratio = "Співвідношення пошкодження, яке використовується для обчислення віднімання карми жертви від атакуючого, якщо вони знаходяться в різних командах. Якщо сталася вбивство в команді, застосовується додатковий бонус."
+L.help_karma_bonus = "Існують також два різні пасивних способи збільшення карми протягом раунду. Спочатку застосовується відновлення здоров'я для кожного гравця. Потім надається додатковий бонус за чистоту, якщо жодному товаришу по команді не завдали шкоди або не вбили його.
 L.help_karma_clean_half = [[
 Коли карма гравця перевищує початковий рівень (це означає, що максимальна карма налаштована так, щоб бути вищою за цей), усі збільшення його карми будуть зменшені залежно від того, наскільки його карма перевищує початковий рівень. Отже, чим вище, він піднімається повільніше.
 
 Це зменшення відбувається за кривою експоненціального спаду: спочатку воно відбувається швидко, але сповільнюється, коли приріст стає меншим. Цей конвар встановлює момент, коли бонус зменшується вдвічі (тобто період напіврозпаду). Якщо значення за замовчуванням становить 0,25, якщо початкова сума карми становить 1000, а максимальна — 1500, і гравець має карму 1125 ((1500 - 1000) * 0,25 = 125), то його бонус за чистий раунд становитиме 30/2 = 15 Отже, щоб бонус зменшувався швидше, ви повинні встановити цей конвар нижче, щоб він зменшувався повільніше, ви повинні збільшити його до 1.]]
-L.help_max_slots = "Sets the maximum amount of weapons per slot. '-1' means that there is no limit."
-L.help_item_armor_value = "This is the armor value given by a the armor item in dynamic mode. If classic mode is enabled (see 'Administration' -> 'Player Settings') then every value greater than 0 is counted as existing armor."
-
-L.label_killer_dna_range = "Max kill range to leave DNA"
-L.label_killer_dna_basetime = "Sample life base time"
-L.label_dna_scanner_slots = "DNA sample slots"
-L.label_dna_radar = "Enable classic DNA scanner mode"
-L.label_dna_radar_cooldown = "DNA scanner cooldown"
-L.label_radar_charge_time = "Recharge time after a radar sample"
-L.label_crowbar_shove_delay = "Cooldown after crowbar push"
-L.label_idle = "Enable idle mode"
-L.label_idle_limit = "Maximum idle time in seconds"
-L.label_namechange_kick = "Enable name change kick"
-L.label_namechange_bantime = "Banned time in minutes after kick"
-L.label_log_damage_for_console = "Enable damage logging in console"
-L.label_damagelog_save = "Save damage log to disk"
-L.label_debug_preventwin = "Prevent any win condition [debug]"
-L.label_bots_are_spectators = "Bots are always spectators"
-L.label_tbutton_admin_show = "Show traitor buttons to admins"
-L.label_ragdoll_carrying = "Enable ragdoll carrying"
-L.label_prop_throwing = "Enable prop throwing"
-L.label_ragdoll_pinning = "Enable ragdoll pinning for non-Innocent roles"
-L.label_ragdoll_pinning_innocents = "Enable ragdoll pinning for Innocent roles"
-L.label_weapon_carrying = "Enable weapon carrying"
-L.label_weapon_carrying_range = "Weapon carry range"
-L.label_prop_carrying_force = "Prop pickup force"
-L.label_teleport_telefrags = "Kill blocking player(s) when teleporting (telefrag)"
-L.label_allow_discomb_jump = "Allow disco jump for grenade thrower"
-L.label_spawn_wave_interval = "Spawn wave interval in seconds"
-L.label_voice_enable = "Enable voicechat"
-L.label_voice_drain = "Enable the voicechat battery feature"
-L.label_voice_drain_normal = "Drain per tick for normal players"
-L.label_voice_drain_admin = "Drain per tick for admins and public policing roles"
-L.label_voice_drain_recharge = "Recharge rate per tick of not voicechatting"
-L.label_locational_voice = "Enable locational 3D voicechat sound for living players"
-L.label_armor_on_spawn = "Player armor on (re-)spawn"
-L.label_prep_respawn = "Enable instant respawn during preparing phase"
-L.label_preptime_seconds = "Preparing time in seconds"
-L.label_firstpreptime_seconds = "First preparing time in seconds"
-L.label_roundtime_minutes = "Fixed round time in minutes"
-L.label_haste = "Enable haste mode"
-L.label_haste_starting_minutes = "Haste mode starting time in minutes"
-L.label_haste_minutes_per_death = "Haste reward in minutes per death"
-L.label_posttime_seconds = "Postround time in seconds"
-L.label_round_limit = "Upper limit of rounds"
-L.label_time_limit_minutes = "Upper limit of playtime in minutes"
-L.label_nade_throw_during_prep = "Enable nade throwing during preparing time"
-L.label_postround_dm = "Enable deathmatch after round ended"
-L.label_session_limits_enabled = "Enable session limits"
-L.label_spectator_chat = "Enable spectators chatting with everybody"
-L.label_lastwords_chatprint = "Print last words to chat if killed while typing"
-L.label_identify_body_woconfirm = "Identify corpse without pressing the 'confirm' button"
-L.label_announce_body_found = "Announce that a body was found"
-L.label_confirm_killlist = "Announce kill list of confirmed corpse"
-L.label_inspect_detective_only = "Limit corpse inspection to policing roles"
-L.label_confirm_detective_only = "Limit corpse confirmation to policing roles"
-L.label_dyingshot = "Shoot on death if in ironsights [experimental]"
-L.label_armor_block_headshots = "Enable armor blocking headshots"
-L.label_armor_block_blastdmg = "Enable armor blocking blast damage"
-L.label_armor_dynamic = "Enable dynamic armor"
-L.label_armor_value = "Armor given by the armor item"
-L.label_armor_damage_block_pct = "Damage percentage taken by armor"
-L.label_armor_damage_health_pct = "Damage percentage taken by player"
-L.label_armor_enable_reinforced = "Enable reinforced armor"
-L.label_armor_threshold_for_reinforced = "Reinforced armor threshold"
-L.label_sherlock_mode = "Enable sherlock mode"
-L.label_highlight_admins = "Highlight server admins"
-L.label_highlight_dev = "Highlight TTT2 developer"
-L.label_highlight_vip = "Highlight VIP"
-L.label_highlight_addondev = "Highlight TTT2 addon developer"
-L.label_highlight_supporter = "Highlight other supporters"
-L.label_enable_hud_element = "Enable {elem} HUD element"
-L.label_spec_prop_control = "Enable prop possession"
-L.label_spec_prop_base = "Possession base value"
-L.label_spec_prop_maxpenalty = "Lower possession bonus limit"
-L.label_spec_prop_maxbonus = "Upper possession bonus limit"
-L.label_spec_prop_force = "Possession push force"
-L.label_spec_prop_rechargetime = "Recharge time in seconds"
-L.label_doors_force_pairs = "Force close-by doors as double doors"
-L.label_doors_destructible = "Enable destructible doors"
-L.label_doors_locked_indestructible = "Initially locked doors are indestructible"
-L.label_doors_health = "Door health"
-L.label_doors_prop_health = "Door prop health"
-L.label_minimum_players = "Minimum player amount to start round"
-L.label_karma = "Enable Karma"
-L.label_karma_strict = "Enable strict Karma"
-L.label_karma_starting = "Starting Karma"
-L.label_karma_max = "Maximum Karma"
-L.label_karma_ratio = "Penalty ratio for team damage"
-L.label_karma_kill_penalty = "Kill penalty for team kill"
+L.help_max_slots = "Встановлює максимальну кількість зброї на один слот. '-1' означає, що немає обмеження."
+L.help_item_armor_value = "Це значення броні, надане предметом броні у динамічному режимі. Якщо ввімкнений класичний режим (див. 'Адміністрування' -> 'Налаштування гравців'), то будь-яке значення, більше 0, вважається наявною бронею."
+L.label_killer_dna_range = "Максимальна відстань для залишення ДНК після вбивства"
+L.label_killer_dna_basetime = "Базовий час збереження зразка ДНК"
+L.label_dna_scanner_slots = "Слоти для зразків ДНК"
+L.label_dna_radar = "Увімкнути класичний режим радара ДНК"
+L.label_dna_radar_cooldown = "Перезарядка радара ДНК"
+L.label_radar_charge_time = "Час перезарядки після використання радара"
+L.label_crowbar_shove_delay = "Затримка після використання лома для толчку"
+L.label_idle = "Увімкнути режим бездіяльності"
+L.label_idle_limit = "Максимальний час бездіяльності в секундах"
+L.label_namechange_kick = "Увімкнути викидання за зміну імені"
+L.label_namechange_bantime = "Тривалість заборони після викидання у хвилинах"
+L.label_log_damage_for_console = "Увімкнути запис пошкоджень в консолі"
+L.label_damagelog_save = "Зберігати журнал пошкоджень на диск"
+L.label_debug_preventwin = "Запобігання будь-яким умовам перемоги [налагоджування]"
+L.label_bots_are_spectators = "Боти завжди спостерігачі"
+L.label_tbutton_admin_show = "Показувати кнопки зрадників адмінам"
+L.label_ragdoll_carrying = "Увімкнути перенесення трупів"
+L.label_prop_throwing = "Увімкнути кидання об'єктів"
+L.label_ragdoll_pinning = "Увімкнути закріплення трупів для не невинних ролей"
+L.label_ragdoll_pinning_innocents = "Увімкнути закріплення трупів для невинних ролей"
+L.label_weapon_carrying = "Увімкнути перенесення зброї"
+L.label_weapon_carrying_range = "Дальність перенесення зброї"
+L.label_prop_carrying_force = "Сила підняття об'єктів"
+L.label_teleport_telefrags = "Вбивати блокуючих гравців при телепортації (телефраг)"
+L.label_allow_discomb_jump = "Дозволити стрибок для кидача гранат"
+L.label_spawn_wave_interval = "Інтервал хвиль респавну в секундах"
+L.label_voice_enable = "Увімкнути голосовий чат"
+L.label_voice_drain = "Увімкнути функцію розряджання голосового чату"
+L.label_voice_drain_normal = "Розряджання на кожному кроці для звичайних гравців"
+L.label_voice_drain_admin = "Розряджання на кожному кроці для адмінів та публічних ролей поліції"
+L.label_voice_drain_recharge = "Швидкість заряджання на кожному кроці, коли не використовується голосовий чат"
+L.label_locational_voice = "Увімкнути локалізований 3D звук голосового чату для живих гравців"
+L.label_armor_on_spawn = "Броня гравця при (пере)спавні"
+L.label_prep_respawn = "Увімкнути миттєвий респавн під час фази підготовки"
+L.label_preptime_seconds = "Час підготовки в секундах"
+L.label_firstpreptime_seconds = "Час першої підготовки в секундах"
+L.label_roundtime_minutes = "Фіксований час раунду в хвилинах"
+L.label_haste = "Увімкнути режим спішності"
+L.label_haste_starting_minutes = "Час початку режиму спішності в хвилинах"
+L.label_haste_minutes_per_death = "Нагорода за спішність в хвилинах за кожну смерть"
+L.label_posttime_seconds = "Час завершення в секундах"
+L.label_round_limit = "Верхня межа раундів"
+L.label_time_limit_minutes = "Верхня межа ігрового часу в хвилинах"
+L.label_nade_throw_during_prep = "Увімкніть кидання гранат під час підготовки"
+L.label_postround_dm = "Увімкнути Deathmatch після завершення раунду"
+L.label_session_limits_enabled = "Увімкнути обмеження сеансу"
+L.label_spectator_chat = "Дозволити глядачам спілкуватися з усіма"
+L.label_lastwords_chatprint = "Друк останніх слів для чату, якщо їх було вбито під час введення"
+L.label_identify_body_woconfirm = "Ідентифікувати труп без натискання кнопки «підтвердити»."
+L.label_announce_body_found = "Оголосити, що знайдено тіло"
+L.label_confirm_killlist = "Оголошення списку вбитих підтверджених трупів"
+L.label_inspect_detective_only = "Обмежте огляд трупа функціями поліції"
+L.label_confirm_detective_only = "Обмежте підтвердження трупа ролями поліції"
+L.label_dyingshot = "Стріляйте на смерть, якщо в ironsights [experimental]"
+L.label_armor_block_headshots = "Увімкнути броню, що блокує постріли в голову"
+L.label_armor_block_blastdmg = "Увімкнути броню, що блокує пошкодження вибухом"
+L.label_armor_dynamic = "Увімкнути динамічну броню"
+L.label_armor_value = "Обладунки, що надаються предметом броні"
+L.label_armor_damage_block_pct = "Відсоток шкоди, яку отримує броня"
+L.label_armor_damage_health_pct = "Відсоток шкоди, отриманої гравцем"
+L.label_armor_enable_reinforced = "Увімкнути посилену броню"
+L.label_armor_threshold_for_reinforced = "Посилений броньовий поріг"
+L.label_sherlock_mode = "Увімкніть режим Шерлока"
+L.label_highlight_admins = "Виділіть адміністраторів сервера"
+L.label_highlight_dev = "Виділіть розробника TTT2"
+L.label_highlight_vip = "Виділіть VIP"
+L.label_highlight_addondev = "Виділіть розробника аддона TTT2"
+L.label_highlight_supporter = "Виділіть інших прихильників"
+L.label_enable_hud_element = "Увімкнути елемент HUD {elem}"
+L.label_spec_prop_control = "Увімкнути володіння опорою"
+L.label_spec_prop_base = "Базова вартість володіння"
+L.label_spec_prop_maxpenalty = "Нижня межа бонусу за володіння"
+L.label_spec_prop_maxbonus = "Верхня межа бонусу за володіння"
+L.label_spec_prop_force = "Сила володіння поштовхом"
+L.label_spec_prop_rechargetime = "Час перезарядки в секундах"
+L.label_doors_force_pairs = "Змусити ближні двері як подвійні двері"
+L.label_doors_destructible = "Увімкнути руйнування дверей"
+L.label_doors_locked_indestructible = "Спочатку замкнені двері не піддаються руйнуванню"
+L.label_doors_health = "Здоров'я дверей"
+L.label_doors_prop_health = "Здоров'я дверної опори"
+L.label_minimum_players = "Мінімальна кількість гравців для початку раунду"
+L.label_karma = "Увімкнути карму"
+L.label_karma_strict = "Увімкнути сувору карму"
+L.label_karma_starting = "Запуск Karma"
+L.label_karma_max = "Максимальна карма"
+L.label_karma_ratio = "Коефіцієнт штрафу за пошкодження команди"
+L.label_karma_kill_penalty = "Штраф за командне вбивство"
 L.label_karma_round_increment = "Карми за раунд"
 L.label_karma_clean_bonus = "Бонус чистої карми"
 L.label_karma_traitordmg_ratio = "Коефіцієнт бонусу за пошкодження іншої команди"
