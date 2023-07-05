@@ -1705,9 +1705,9 @@ L.help_karma_ratio = "The ratio of the damage that is used to compute how much o
 L.help_karma_traitordmg_ratio = "The ratio of the damage that is used to compute how much of the victim's Karma is subtracted from the attacker's if both are in different teams. If a team kill happens, a further bonus is applied."
 L.help_karma_bonus = "There are also two different passive ways to gain Karma during a round. First a round heal is applied to every player. Then a secondary clean bonus is given if no teammates were hurt or killed."
 L.help_karma_clean_half = [[
-When a player's Karma is above the starting level (meaning the Karma max has been configured to be higher than that), all their Karma increases will be reduced based on how far their Karma is above that starting level. So it goes up slower the higher it is.
+Коли карма гравця перевищує початковий рівень (це означає, що максимальна карма налаштована так, щоб бути вищою за цей), усі збільшення його карми будуть зменшені залежно від того, наскільки його карма перевищує початковий рівень. Отже, чим вище, він піднімається повільніше.
 
-This reduction goes in a curve of exponential decay: initially it's fast, and it slows down as the increment gets smaller. This convar sets at what point the bonus has been halved (so the half-life). With the default value of 0.25, if the starting amount of Karma is 1000 and the max 1500, and a player has Karma 1125 ((1500 - 1000) * 0.25 = 125), then his clean round bonus will be 30 / 2 = 15. So to make the bonus go down faster you’d set this convar lower, to make it go down slower you’d increase it towards 1.]]
+Це зменшення відбувається за кривою експоненціального спаду: спочатку воно відбувається швидко, але сповільнюється, коли приріст стає меншим. Цей конвар встановлює момент, коли бонус зменшується вдвічі (тобто період напіврозпаду). Якщо значення за замовчуванням становить 0,25, якщо початкова сума карми становить 1000, а максимальна — 1500, і гравець має карму 1125 ((1500 - 1000) * 0,25 = 125), то його бонус за чистий раунд становитиме 30/2 = 15 Отже, щоб бонус зменшувався швидше, ви повинні встановити цей конвар нижче, щоб він зменшувався повільніше, ви повинні збільшити його до 1.]]
 L.help_max_slots = "Sets the maximum amount of weapons per slot. '-1' means that there is no limit."
 L.help_item_armor_value = "This is the armor value given by a the armor item in dynamic mode. If classic mode is enabled (see 'Administration' -> 'Player Settings') then every value greater than 0 is counted as existing armor."
 
@@ -1798,8 +1798,8 @@ L.label_karma_starting = "Starting Karma"
 L.label_karma_max = "Maximum Karma"
 L.label_karma_ratio = "Penalty ratio for team damage"
 L.label_karma_kill_penalty = "Kill penalty for team kill"
-L.label_karma_round_increment = "Round heal"
-L.label_karma_clean_bonus = "Чистий круглий бонус"
+L.label_karma_round_increment = "Карми за раунд"
+L.label_karma_clean_bonus = "Бонус чистої карми"
 L.label_karma_traitordmg_ratio = "Коефіцієнт бонусу за пошкодження іншої команди"
 L.label_karma_traitorkill_bonus = "Бонус за вбивство іншої команди"
 L.label_karma_clean_half = "Чисте зменшення бонусу"
