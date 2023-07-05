@@ -91,208 +91,208 @@ L.equip_carry_slot = "У вас є це зброя у слоті {slot}."
 L.equip_carry_minplayers = "Недостатньо гравців для придбання цієї зброї."
 
 L.equip_help_stock = "Деяке обладнання можна купити тільки 1 раз за раунд."
-L.equip_stock_deny = "Цього предмету більше немає в наявності."
-L.equip_stock_ok = "Цей предмет є в наявності."
+L.equip_stock_deny = "Цього товару більше немає в наявності."
+L.equip_stock_ok = "Цей товар є в наявності."
 
-L.equip_custom = "Custom item added by this server."
+L.equip_custom = "Користувацький предмет доданий цим сервером."
 
-L.equip_spec_name = "Name"
-L.equip_spec_type = "Type"
-L.equip_spec_desc = "Description"
+L.equip_spec_name = "Ім'я"
+L.equip_spec_type = "Тип"
+L.equip_spec_desc = "Опис"
 
-L.equip_confirm = "Buy equipment"
+L.equip_confirm = "Купити обладнання"
 
 -- Disguiser tab in equipment menu
-L.disg_name = "Disguiser"
-L.disg_menutitle = "Disguise control"
-L.disg_not_owned = "You are not carrying a Disguiser!"
-L.disg_enable = "Enable disguise"
+L.disg_name = "Маскувальник"
+L.disg_menutitle = "Налаштування маскувальника"
+L.disg_not_owned = "Ви не маєте Маскувальника!"
+L.disg_enable = "Увімкнути маскування"
 
-L.disg_help1 = "When your disguise is active, your name, health and Karma do not show when someone looks at you. In addition, you will be hidden from a Detective's radar."
-L.disg_help2 = "Press Numpad Enter to toggle the disguise without using the menu. You can also bind a different key to 'ttt_toggle_disguise' using the console."
+L.disg_help1 = "Коли ваше маскування активне, ваше ім'я, здоров'я та карма не відображаються, коли хтось на вас дивиться. Крім того, ви будете приховані від радарів детектива."
+L.disg_help2 = "Нажміть Numpad Enter для перемикання маскування без використання меню. Ви також можете прив’язати іншу кнопку до'ttt_toggle_disguise' використовуючи консоль."
 
 -- Radar tab in equipment menu
-L.radar_name = "Radar"
-L.radar_menutitle = "Radar control"
-L.radar_not_owned = "You are not carrying a Radar!"
-L.radar_scan = "Perform scan"
-L.radar_auto = "Auto-repeat scan"
-L.radar_help = "Scan results show for {num} seconds, after which the Radar will have recharged and can be used again."
-L.radar_charging = "Your Radar is still charging!"
+L.radar_name = "Радар"
+L.radar_menutitle = "Налаштування радара"
+L.radar_not_owned = "Ви не маєте Радара!"
+L.radar_scan = "Виконати сканування"
+L.radar_auto = "Автоповтор сканування"
+L.radar_help = "Результати сканування відображаються протягом {num} секунд, після чого радар буде перезаряджено та його можна використовувати знову."
+L.radar_charging = "Ваш радар все ще заряджається!"
 
 -- Transfer tab in equipment menu
-L.xfer_name = "Transfer"
-L.xfer_menutitle = "Transfer credits"
-L.xfer_send = "Send a credit"
+L.xfer_name = "Трансфер"
+L.xfer_menutitle = "Передати кредити"
+L.xfer_send = "Відправити кредити"
 
-L.xfer_no_recip = "Recipient not valid, credit transfer aborted."
-L.xfer_no_credits = "Insufficient credits for transfer."
-L.xfer_success = "Credit transfer to {player} completed."
-L.xfer_received = "{player} has given you {num} credit."
+L.xfer_no_recip = "Одержувач недійсний, переказ кредиту скасовано."
+L.xfer_no_credits = "Недостатньо кредитів для переказу."
+L.xfer_success = "Переказ кредитів {player} завершено."
+L.xfer_received = "{player} дав вам {num} кредитів."
 
 -- Radio tab in equipment menu
-L.radio_name = "Radio"
-L.radio_help = "Click a button to make your Radio play that sound."
-L.radio_notplaced = "You must place the Radio to play sound on it."
+L.radio_name = "Радіо"
+L.radio_help = "Натисніть кнопку, щоб радіо відтворювало цей звук."
+L.radio_notplaced = "Ви повинні встановити Радіо, щоб відтворювати на ньому звук."
 
 -- Radio soundboard buttons
-L.radio_button_scream = "Scream"
-L.radio_button_expl = "Explosion"
-L.radio_button_pistol = "Pistol shots"
-L.radio_button_m16 = "M16 shots"
-L.radio_button_deagle = "Deagle shots"
-L.radio_button_mac10 = "MAC10 shots"
-L.radio_button_shotgun = "Shotgun shots"
-L.radio_button_rifle = "Rifle shot"
-L.radio_button_huge = "H.U.G.E burst"
-L.radio_button_c4 = "C4 beeping"
-L.radio_button_burn = "Burning"
-L.radio_button_steps = "Footsteps"
+L.radio_button_scream = "Крик"
+L.radio_button_expl = "Вибух"
+L.radio_button_pistol = "Пістолетні постріли"
+L.radio_button_m16 = "M16 постріли"
+L.radio_button_deagle = "Deagle постріли"
+L.radio_button_mac10 = "MAC10 постріли"
+L.radio_button_shotgun = "Shotgun постріли"
+L.radio_button_rifle = "Rifle постріли"
+L.radio_button_huge = "H.U.G.E постріли"
+L.radio_button_c4 = "C4 звуки бікання"
+L.radio_button_burn = "Горіння"
+L.radio_button_steps = "Звуки ходи"
 
 -- Intro screen shown after joining
-L.intro_help = "If you're new to the game, press F1 for instructions!"
+L.intro_help = "Якщо ви новачок у грі, натисніть F1, щоб отримати інструкції!"
 
 -- Radiocommands/quickchat
-L.quick_title = "Quickchat keys"
+L.quick_title = "Клавіші швидкого чату"
 
-L.quick_yes = "Yes."
-L.quick_no = "No."
-L.quick_help = "Help!"
-L.quick_imwith = "I'm with {player}."
-L.quick_see = "I see {player}."
-L.quick_suspect = "{player} acts suspicious."
-L.quick_traitor = "{player} is a Traitor!"
-L.quick_inno = "{player} is innocent."
-L.quick_check = "Anyone still alive?"
+L.quick_yes = "Так."
+L.quick_no = "Ні."
+L.quick_help = "Бля допоможіть!"
+L.quick_imwith = "Я біля {player}."
+L.quick_see = "Я бачу {player}."
+L.quick_suspect = "{player} поводиться підозріло."
+L.quick_traitor = "{player} Зрадник!"
+L.quick_inno = "{player} Невинний."
+L.quick_check = "Хтось ще живий?"
 
 -- {player} in the quickchat text normally becomes a player nickname, but can
 -- also be one of the below.  Keep these lowercase.
-L.quick_nobody = "nobody"
-L.quick_disg = "someone in disguise"
-L.quick_corpse = "an unidentified body"
-L.quick_corpse_id = "{player}'s corpse"
+L.quick_nobody = "ніхто"
+L.quick_disg = "хтось у маскуванні"
+L.quick_corpse = "неопізнане тіло"
+L.quick_corpse_id = "{player} труп"
 
 -- Body search window
-L.search_title = "Body Search Results"
-L.search_info = "Information"
-L.search_confirm = "Confirm Death"
-L.search_call = "Call Detective"
+L.search_title = "Результати обшуку тіла"
+L.search_info = "Інформація"
+L.search_confirm = "Підтвердити смерть"
+L.search_call = "Викликати Детектива"
 
 -- Descriptions of pieces of information found
-L.search_nick = "This is the body of {player}."
+L.search_nick = "Це тіло {player}."
 
-L.search_role_traitor = "This person was a Traitor!"
-L.search_role_det = "This person was a Detective."
-L.search_role_inno = "This person was an innocent terrorist."
+L.search_role_traitor = "Ця людина була зрадником!"
+L.search_role_det = "Ця людина була детективом."
+L.search_role_inno = "Ця людина була невинним терористом."
 
-L.search_words = "Something tells you some of this person's last words were: '{lastwords}'"
-L.search_armor = "They were wearing nonstandard body armor."
-L.search_disg = "They were carrying a device that could hide their identity."
-L.search_radar = "They were carrying some sort of radar. It is no longer functioning."
-L.search_c4 = "In a pocket you found a note. It states that cutting wire {num} will safely disarm the bomb."
+L.search_words = "Щось підказує вам, що деякі з останніх слів цієї людини були: '{lastwords}'"
+L.search_armor = "Він був одягнений в нестандартний бронежилет."
+L.search_disg = "Він мав пристрій який міг маскувати його ідентичність."
+L.search_radar = "Він мав радар, який більше не працює."
+L.search_c4 = "У кишені ти знайшов записку. Там зазначено, що ріжучий дріт {num} безпечно знешкодить бомбу."
 
-L.search_dmg_crush = "Many of their bones are broken. It seems the impact of a heavy object killed them."
-L.search_dmg_bullet = "It is obvious they were shot to death."
-L.search_dmg_fall = "They fell to their death."
-L.search_dmg_boom = "Their wounds and singed clothes indicate an explosion caused their end."
-L.search_dmg_club = "The body is bruised and battered. Clearly they were clubbed to death."
-L.search_dmg_drown = "The body shows the telltale signs of drowning."
-L.search_dmg_stab = "They were stabbed and cut before quickly bleeding to death."
-L.search_dmg_burn = "Smells like roasted terrorist around here..."
-L.search_dmg_tele = "It looks like their DNA was scrambled by tachyon emissions!"
-L.search_dmg_car = "When this terrorist crossed the road, they were run over by a reckless driver."
-L.search_dmg_other = "You cannot find a specific cause of this terrorist's death."
+L.search_dmg_crush = "Багато його кісток зламані. Здається, удар важкого предмета вбив його."
+L.search_dmg_bullet = "Очевидно, що його розстріляли."
+L.search_dmg_fall = "Він впав насмерть."
+L.search_dmg_boom = "Його рани та обпалений одяг вказують на те, що причиною його смертю став вибух."
+L.search_dmg_club = "Тіло в синцях і побоях. Очевидно, що його забили до смерті."
+L.search_dmg_drown = "Тіло має ознаки утоплення."
+L.search_dmg_stab = "Він отримав ножові поранення і порізи, перш ніж швидко стікти кров'ю."
+L.search_dmg_burn = "Тут пахне смаженим терористом..."
+L.search_dmg_tele = "Схоже, їхню ДНК було зашифровано випромінюванням тахіонів!"
+L.search_dmg_car = "Коли цей терорист переходив дорогу, на нього наїхав необережний водій."
+L.search_dmg_other = "Ви не можете знайти конкретну причину смерті цього терориста."
 
-L.search_weapon = "It appears a {weapon} was used to kill them."
-L.search_head = "The fatal wound was a headshot. No time to scream."
-L.search_time = "They died roughly {time} before you conducted the search."
-L.search_dna = "Retrieve a sample of the killer's DNA with a DNA Scanner. The DNA sample will decay roughly {time} from now."
+L.search_weapon = "Здається, для їхнього вбивства було використано {weapon}"
+L.search_head = "Смертельна рана – постріл у голову. Не було часу кричати."
+L.search_time = "Він помер приблизно за {time} до того, як ви почали пошук."
+L.search_dna = "Отримайте зразок ДНК вбивці за допомогою сканера ДНК. Зразок ДНК розпадеться приблизно через {time}."
 
-L.search_kills1 = "You found a list of kills that confirms the death of {player}."
-L.search_kills2 = "You found a list of kills with these names:"
-L.search_eyes = "Using your detective skills, you identified the last person they saw: {player}. The killer, or a coincidence?"
+L.search_kills1 = "Ви знайшли список вбивств, який підтверджує смерть {player}."
+L.search_kills2 = "Ви знайшли список вбивств із такими іменами:"
+L.search_eyes = "Використовуючи свої навички детектива, ви впізнали останнього, кого він бачив: {player}. Вбивця чи збіг обставин?"
 
 -- Scoreboard
-L.sb_playing = "You are playing on..."
-L.sb_mapchange = "Map changes in {num} rounds or in {time}"
-L.sb_mapchange_disabled = "Session limits are disabled."
+L.sb_playing = "Ви граєте на..."
+L.sb_mapchange = "Карти змінюються за {num} раундів або за {time}"
+L.sb_mapchange_disabled = "Обмеження сеансів вимкнено."
 
-L.sb_mia = "Missing In Action"
-L.sb_confirmed = "Confirmed Dead"
+L.sb_mia = "Зниклі безвісти"
+L.sb_confirmed = "Підтверджено смерть"
 
-L.sb_ping = "Ping"
-L.sb_deaths = "Deaths"
-L.sb_score = "Score"
-L.sb_karma = "Karma"
+L.sb_ping = "Пінг"
+L.sb_deaths = "Смерті"
+L.sb_score = "Рахунок"
+L.sb_karma = "Карма"
 
-L.sb_info_help = "Search this player's body, and you can review the results here."
+L.sb_info_help = "Виконайте пошук у тілі цього гравця, і ви можете переглянути результати тут."
 
-L.sb_tag_friend = "FRIEND"
-L.sb_tag_susp = "SUSPECT"
-L.sb_tag_avoid = "AVOID"
-L.sb_tag_kill = "KILL"
-L.sb_tag_miss = "MISSING"
+L.sb_tag_friend = "ДРУГ"
+L.sb_tag_susp = "ПІДОЗРІЛИЙ"
+L.sb_tag_avoid = "УНИКАТИ"
+L.sb_tag_kill = "ВБИТИ"
+L.sb_tag_miss = "ПРОПАВ"
 
 -- Equipment actions, like buying and dropping
-L.buy_no_stock = "This weapon is out of stock: you already bought it this round."
-L.buy_pending = "You already have an order pending, wait until you receive it."
-L.buy_received = "You have received your special equipment."
+L.buy_no_stock = "Цієї зброї немає в наявності: ви вже купили її цього раунду."
+L.buy_pending = "У вас вже є замовлення, зачекайте, поки ви його отримаєте."
+L.buy_received = "Ви отримали спеціальне обладнання."
 
-L.drop_no_room = "You have no room here to drop your weapon!"
+L.drop_no_room = "У вас тут нема місця, щоб кинути зброю!"
 
-L.disg_turned_on = "Disguise enabled!"
-L.disg_turned_off = "Disguise disabled."
+L.disg_turned_on = "Маскування включено!"
+L.disg_turned_off = "Маскування вимкнено!"
 
 -- Equipment item descriptions
-L.item_passive = "Passive effect item"
-L.item_active = "Active use item"
-L.item_weapon = "Weapon"
+L.item_passive = "Предмет з пасивним ефектом"
+L.item_active = "Предмет активного використання"
+L.item_weapon = "Зброя"
 
-L.item_armor = "Body Armor"
+L.item_armor = "Бронежилет"
 L.item_armor_desc = [[
-Reduces bullet, fire and explosion damage. Depletes over time.
+Зменшує пошкодження від куль, вогню та вибуху. З часом зношується.
 
-It can be purchased multiple times. After reaching a specific armor value, the armor becomes stronger.]]
+Його можна купувати кілька разів. Після досягнення певного значення броні вона стає міцнішою.]]
 
-L.item_radar = "Radar"
+L.item_radar = "Радар"
 L.item_radar_desc = [[
-Allows you to scan for life signs.
+Дозволяє сканувати живих гравців.
 
-Starts automatic scans as soon as you buy it. Configure it in Radar tab of this menu.]]
+Починає автоматичне сканування відразу після покупки. Налаштуйте його на вкладці Радар у цьому меню.]]
 
-L.item_disg = "Disguiser"
+L.item_disg = "Маскувальник"
 L.item_disg_desc = [[
-Hides your ID info while on. Also avoids being the person last seen by a victim.
+Приховує вашу ідентифікаційну інформацію коли увімкнений. Також дозволяє уникати бути особою, яку востаннє бачила жертва.
 
-Toggle in the Disguise tab of this menu or press Numpad Enter.]]
+Перейдіть у вкладку «Маскування» в цьому меню або натисніть клавішу Enter.]]
 
 -- C4
-L.c4_hint = "Press {usekey} to arm or disarm."
-L.c4_disarm_warn = "A C4 explosive you planted has been disarmed."
-L.c4_armed = "You have successfully armed the bomb."
-L.c4_disarmed = "You have successfully disarmed the bomb."
-L.c4_no_room = "You cannot carry this C4."
+L.c4_hint = "Натисніть {usekey}, щоб встановити або знешкодити."
+L.c4_disarm_warn = "Підкладену вами вибухівку C4 було знешкоджено."
+L.c4_armed = "Ви успішно встановили бомбу."
+L.c4_disarmed = "Ви успішно знешкодили бомбу."
+L.c4_no_room = "Ви не можете носити цей C4."
 
-L.c4_desc = "Powerful timed explosive."
+L.c4_desc = "Потужна вибухівка що вибухає через деякий час."
 
-L.c4_arm = "Arm C4"
-L.c4_arm_timer = "Timer"
-L.c4_arm_seconds = "Seconds until detonation:"
-L.c4_arm_attempts = "In disarm attempts, {num} of the 6 wires will cause instant detonation when cut."
+L.c4_arm = "Активувати C4"
+L.c4_arm_timer = "Таймер"
+L.c4_arm_seconds = "Секунди до детонації:"
+L.c4_arm_attempts = "Під час спроби знешкодження {num} із 6 проводів спричинять миттєву детонацію, якщо їх перерізати."
 
-L.c4_remove_title = "Removal"
-L.c4_remove_pickup = "Pick up C4"
-L.c4_remove_destroy1 = "Destroy C4"
-L.c4_remove_destroy2 = "Confirm: destroy"
+L.c4_remove_title = "Видалення"
+L.c4_remove_pickup = "Підібрати C4"
+L.c4_remove_destroy1 = "Знищити C4"
+L.c4_remove_destroy2 = "Підтвердити: знищення"
 
-L.c4_disarm = "Disarm C4"
-L.c4_disarm_cut = "Click to cut wire {num}"
+L.c4_disarm = "Деактивувати C4"
+L.c4_disarm_cut = "Натисніть, щоб перерізати дріт {num}"
 
-L.c4_disarm_owned = "Cut a wire to disarm the bomb. It's your bomb, so every wire will disarm it."
-L.c4_disarm_other = "Cut a safe wire to disarm the bomb. It will explode if you get it wrong!"
+L.c4_disarm_owned = "Переріжте дріт, щоб знешкодити бомбу. Це ваша бомба, тому кожен дріт її знешкодить."
+L.c4_disarm_other = "Відріжте потрібний дріт, щоб знешкодити бомбу. Він вибухне, якщо ви помилитеся!"
 
-L.c4_status_armed = "ARMED"
-L.c4_status_disarmed = "DISARMED"
+L.c4_status_armed = "Активовано"
+L.c4_status_disarmed = "Деактивовано"
 
 -- Visualizer
 L.vis_name = "Visualizer"
