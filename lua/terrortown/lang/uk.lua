@@ -90,7 +90,7 @@ L.equip_carry_own = "У вас це вже є."
 L.equip_carry_slot = "У вас є це зброя у слоті {slot}."
 L.equip_carry_minplayers = "Недостатньо гравців для придбання цієї зброї."
 
-L.equip_help_stock = "Of certain items you can only buy one per round."
+L.equip_help_stock = "Деяке обладнання можна купити тільки 1 раз за раунд."
 L.equip_stock_deny = "This item is no longer in stock."
 L.equip_stock_ok = "This item is in stock."
 
